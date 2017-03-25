@@ -1,0 +1,544 @@
+\chapter{Materials and Methods}\label{material_chapter}
+This section will explain that how this study was designed and methodology strategy
+was used. Why the methods were selected and how the research had conducted, will
+also be explained.
+\section{Material}
+This study used data of wheat for year (2012-13) and (2013-14) were taken from Wheat Research Institute (Ayub Agriculture Research Center Faisalabad, Punjab). Thirty wheat genotypes, listed in (Table\ref{Table:3.2 } ) were evaluated at 13 locations in year 2013 and 2014 listed in (Table\ref{Table:3.1 }).
+\begin{table}[h!]
+	\centering
+	\caption[List of locations]{List of locations included in this study }
+	
+	%\centering  % not needed, since table is as wide as text block
+	\begin{tabular}{ r l l r} 
+		\toprule
+		&	&\multicolumn{2}{c}{Location codes} 
+		\\
+		\cmidrule(l){3-4}  
+		No.& Locations                     & Year-2013    & Year-2014\\ [0.5ex] 	\hline
+		\midrule 
+		1  & Okara                         & L1  & S1 \\
+		2  & MMRI                          & L2  & S2\\
+		3  & Dhakkar                       & L3  & S3\\
+		4  & Bahawal nagar (BWN)           & L4  & S4 \\
+		5  &  KSK                          & L5  & S5\\
+		6  &  Gujranwala   (GRW)           & L6  & S6\\
+		7  &   Kot Naina                   & L7  & S7\\
+		8  &    Khanewal                   & L8  & S8\\
+		9  &    Multan                     & L9  & S9 \\
+		10  &    Vehari                    & L10 & S10 \\
+		11 &    Karor                      & L11 & S11\\
+		12 &    Sargodha                   & L12 & S12 \\
+		13 &    Piplan                     & L13 & S13\\
+		
+		\bottomrule
+	\end{tabular}
+	\label{Table:3.1 }
+\end{table}
+\clearpage
+\begin{table}[h!]
+\centering
+	\caption[List of genotypes]{List of Wheat genotypes included in this study }
+		%\centering  % not needed, since table is as wide as text block
+	\begin{tabular}{ l l r} 
+		\toprule
+			No. & Genotype Name & Genotype Code \\
+			\midrule  	
+	1  &  V-12266              &  1 \\
+	2  &  V-11047              &  2 \\
+	3  &  V-12284              &  3 \\
+	4  &  V-11098              &  4 \\
+	5  &  V-11061              &  5 \\
+	6  &  V-11022              &  6 \\
+	7  &  V-11092              &  7  \\
+	8  &  NW.10.1111-7         &  8  \\
+	9  &  TW11510              &  9  \\
+	10 &  V-12275              &  10  \\
+	11 &  GH                   &  11 \\
+	12 &  V-11137              &  12 \\
+	13 &  NN-GAN-3             &  13 \\
+	14 &  V-11138              &  14\\
+	15 &  V-11046              &  15\\
+	16 &  NR-411               &  16 \\
+	17 &  V-11365              &  17\\
+	18 &  V-12265              &  18\\
+	19 &   Millat-11           &  19 \\
+	20 &   Lasani-08           &  20\\
+	21 &   Nr-409              &  21\\       
+	22 &   V-11143             &   22\\
+	23 &   V-11041             &   23\\
+	24 &    V-11032            &   24\\
+	25 &   NS-10               &   25\\
+	26 &   11BT004             &   26\\
+	27 &   9459-1              &   27\\
+	28 &   V-12304             &   28\\
+	29 &   11B2074             &   39\\
+	30 &   11B2049             &   30\\
+		\bottomrule
+	\end{tabular}
+	\label{Table:3.2 }
+\end{table}
+
+The experimental layout was randomized complete block design (RCBD) with three replicates. The locations (Table 3.1) where experiment was conducted were different in soil type, further more years differentiate in term of mean seasonal rainfall. Therefore, location were considered as different environments.
+
+ Classical approach as well as Bayesian was applied. AMMI model was applied and for Bayesian analysis the multivariate von Mises-Fisher distribution was used as a prior for interaction parameters. First year data were used to elicit the prior to analyze second year. For analysis R software was used \citep{R2015}.
+\section{Classical Approach}
+\subsection{AMMI model}
+The usual two way analysis of variance model is
+\begin{eqnarray}
+Y_{ij}=\mu+\alpha_i +\beta_j+(\alpha\beta)_{ij}+\epsilon_{ij} 
+\end{eqnarray}
+where 
+\begin{eqnarray}
+Y_{ij}&=& \text{Observed response value of genotype i in environment j},\nonumber\\
+\mu &=& \text{Grand mean}  \nonumber \\
+\alpha_i &=& \text{effect of genotypei, i = 1,...,r} \nonumber  \\
+\beta_j &=& \text{effect of environmentj, j =1,...,c}  \nonumber\\
+(\alpha\beta)_{ij} &=& \text{interaction effect} \nonumber \\
+\epsilon_{ij}&=& \text{Error term} \nonumber
+\end{eqnarray}
+	
+	Parsimonious modeling of interaction can be considered by the singular value decomposition of $(\alpha\beta)_{ij}$ and by retaining only first few components. This give rise to the usual linear (additive) and bilinear (non-additive) two way model originally introduce by \citet{GOLLOB1968} and \citet{Mandel1971} and extensively used in plant breeding trial for assessing stability and adaptation \citep{Crossa2004}. They expressed that the sum of squares for interaction can be further partitioned in multiplicative components related to eigen values. Such method of analysis of variance is called   Additive Main effect and Multiplicative Interaction model (AMMI). Thus AMMI method integrates analysis of variance and principal component analysis in to a unified approach \citep{Bradu1978, GABRIEL1971, Gauch1988}.
+
+AMMI Can be used to analyze multi-location trials \citep{Crossa1990}. According to \citet{Zobel1988}, considering the three traditional models, analysis of variance fails to determine a significant interaction component, principal component analysis (PCA) fails to identify and separate the significant genotype and environment main effects. But AMMI analysis reveals a highly significant interaction component that has a clear agronomic meaning and it does not require specific design, except for a two way data structure.
+
+ AMMI analysis first fit the additive main effects of genotypes and environments by the usual analysis of variance and the describe the non additive part, genotype-environment interaction, by principal component analysis. The AMMI is used for following three main purposes
+ \begin{enumerate}
+ 	\item Model diagnosis:  AMMI is more appropriate in the initial Statistical analysis of yield trials, because it provides an analytical tool for diagnosing other models as sub cases when these are better for a particular dataset \citep{Gauch1988}  
+ 	\item Genotype by environment interaction explanation: AMMi summarizes patterns and relationships of genotypes and environments  \citep{Crossa1990}.
+ 	\item Improvement in accuracy of yield estimates: To improve the accuracy of yield estimates that is equivalent to increasing the number of replicates by a factor of two to five \citep{Zobel1988}. Such gains may be used to reduce costs by reducing the number of replications, to include more treatments in the experiments, or to improve efficiency in selecting the best genotypes.
+\end{enumerate}	 
+
+The AMMI model with multiplicative terms may be written as
+\begin{eqnarray}
+Y_{ij}=\mu+\alpha_i +\beta_j+\sum_{k=1}^t \lambda_k u_{ik}v_{jk}+\epsilon_{ij} 
+\end{eqnarray}
+Where,
+\begin{eqnarray}
+\lambda_k &=& \text{The singular value for k-th principal component axis}.\nonumber \\
+u_{ik} &=& \text{Element of left singular vector} \nonumber \\
+v_{jk} &=& \text{Element of right singular vector} \nonumber \\
+\epsilon_{ij} &=& \text{Error term} \nonumber
+\end{eqnarray}
+With the side condition that 
+\begin{eqnarray}
+\sum_iu_{ik}^2=\sum_jv_{jk}^2=1 \nonumber
+\end{eqnarray}
+ and, for $k\neq k^\prime$ 
+ \begin{equation*} 
+ \sum_i\alpha_{ik}\alpha_{ik^\prime}=\sum_j\beta_{jk}\beta_{jk^\prime}=0 \nonumber
+ \end{equation*} 
+ and t=min(r, c)-1.
+ 
+ The additive parameters are $\mu$, $\alpha_i$ and $\beta_j$ while, $u_{ik}$, $v_{jk}$ and $\lambda_k$ are multiplicative parameters. The $u_{ik}$ are genotype interaction parameters that measure genotype sensitivity to hypothetical environmental factors denoted by environmental interaction parameters $v_{jk}$
+ 
+ In matrix notation it can be expressed as
+\begin{equation}
+	\textbf{Y}=\mu\textbf{1}_r\textbf{1}_c^\prime+\bm{\alpha}\otimes \textbf{1}_c^\prime+\bm{\beta}^\prime\otimes\textbf{ 1}_r+\textbf{U}\textbf{D}\textbf{V}^\prime +\textbf{E} 
+\end{equation}
+Where,
+\begin{eqnarray}
+\textbf{Y} &=&[Y_{ij}] \nonumber \\
+\bm{\alpha}&=&[\alpha_i] \nonumber \\
+\bm{\beta }&=&[\beta_j] \nonumber\\
+\textbf{D} &=& \text{diag}(\lambda_k, k=1,...,t) \nonumber \\
+\textbf{U} &=& (u_1,...,u_t) \nonumber \\
+u_{k}      &=&[u_{ik}] \nonumber \\
+\textbf{V} &=& (v_1,...,v_t) \nonumber \\
+v_k        &=&[v_{jk}]  \nonumber
+\end{eqnarray}
+Note that from above model allowing $\alpha=0$ and $\beta=0$ other linear by linear model can be obtained.
+
+Formal likelihood ratio tests have been proposed to determine the appropriate number of multiplicative terms  that describe the interaction \citep{Hegemann1976}. \citet{Milliken1989} have also provided comprehensive tables of critical points for the likelihood ratio test statistics. So the General analysis of variance for AMMI model is
+\begin{table}[h!]
+	\caption{The General Analysis of Variance for the AMMI Model} 
+	\centering 
+	\begin{tabular}{l l }
+		\hline\hline 
+		Sources                & df \\ [0.5ex] 
+		\hline
+		Environment  (E)          & c-1 \\
+		Rep(E)               & c(b-1) \\
+		Geneotype      (G)        & r-1   \\
+		GE Interaction (GEI)        & (c-1)(r-1) \\ 
+\multicolumn{1}{r}{	PCA 1}     &  $w_1$=c+r-1-(2x1) \\
+\multicolumn{1}{r}{	PCA 2}     & $w_2$=c+r-1-(2x2) \\
+\multicolumn{1}{r}{.}		   & . \\
+\multicolumn{1}{r}{.}          & . \\
+\multicolumn{1}{r}{.}          & . \\
+\multicolumn{1}{r}{PCA m}      & $w_n$=c+r-1-(2xn) \\
+		  
+		Exp. Error             & c(r-1)(b-1) \\ [1ex]
+		\hline 
+	\end{tabular}
+	\label{Table:3.3 }
+\end{table}
+ The AMMI model combines the analysis of variance for the genotype and environment effects with principal component analysis of G$\times$E interaction. it has proven useful for understanding complex G$\times$E interaction. The results can be graphed in a useful bi-plot that shows both main and interaction effects for both genotypes and environments. Bi-plot analysis  of the GE interaction allows for visual inspection and interpretation of the underlying structure and causes of interaction \citep{Zobel1988,Bradu1978}. The concept of bi-plot was developed by \citet{GABRIEL1971} to graphically display a rank-two matrix. The significance of this concept is that if a two way data can be sufficiently approximated by a rank-two matrix, then it can be graphically displayed and investigated. \citet{Bradu1978} explored the use of bi-plot as a diagnostic tool for choosing an appropriate model for the analysis of two way data.
+ \subsubsection{Determination of optimal number of interaction components}
+ Non-additive effects are frequently observe in two-way tables,  the interpretation is a problem if replicate observation are present for each cell of the table. Further more it was pointed out that the non-additivity is often associated with just a few rows and columns of the table. Hence, good prediction of true trait response in each cell of two way table can be achieved by truncating the AMMI model.
+ 
+ \citet{Dias2003} present two methods outlined by \citep{Krzanowski1987},  based on 'leave-one-out' procedures that optimize the cross-validation process (i.e. maximizes the number of data points left in the set as each iteration without incurring bias due to re-substitution.), and Gollob method based on F-test. For this study the method suggested by \citet{GOLLOB1968} will be used.  
+ \begin{table}[h!]
+ 	\caption{The General Analysis of Variance for the AMMI Model} 
+ 	\centering 
+ 	\begin{tabular}{ l l }
+ 		\hline\hline 
+ 		Sources & df \\ [0.5ex] 
+ 		\hline
+ 		Environment (E) & c-1 \\
+ 		Rep(E) & c(b-1) \\
+ 		Geneotype (G)& r-1   \\
+ 		GE Interaction (GEI) & (c-1)(r-1) \\ 
+ 	\multicolumn{1}{r}{PCA 1} & $w_1$=c+r-1-(2x1) \\
+ 	\multicolumn{1}{r}{	PCA 2} & $w_2$=c+r-1-(2x2) \\
+ \multicolumn{1}{r}{		.} & . \\
+ \multicolumn{1}{r}		{.} & . \\
+\multicolumn{1}{r} 		{.} & . \\
+ \multicolumn{1}{r}	{PCA s} & $w_m$= c+r-1-(2xn)\\
+ \multicolumn{1}{r}{Residual of PCA} &[(c-1)(r-1)-$\sum_{t=1}^s w_t$ \\
+ 		Exp. Error & c(r-1)(b-1) \\ [1ex]
+ 		\hline 
+ 	\end{tabular}
+ 	\label{Table:3.4 }
+ \end{table}
+ 
+ \cite{GOLLOB1968} suggested using statistics
+ \begin{eqnarray}
+ F = \frac{r\hat{\lambda}_k^2}{f_1 MS_E} \nonumber
+ \end{eqnarray}
+ against an F distribution with $f_1$=c+r-(2k) and $f_2$=c(r-1)(b-1) degree of freedom to the k-th multiplicative term of model for significance. Therefore, selection of the optimal model is base on F test for successive terms of interaction. Hence, ANOVA model for truncated AMMI is as below, 
+\subsubsection{AMMI Biplots}
+To generate a bi-plot that can be use in visual analysis of MET data, the singular values have to be partitioned into genotype and environment eigenvectors so that equation (3.2) can be written in the form
+   \begin{eqnarray}
+   Y_{ij}=\mu+\alpha_i +\beta_j+\sum_{k=1}^t  u_{ik}^*v_{jk}^*+\epsilon_{ij} 
+   \end{eqnarray}
+where $u_{ik}^*$ and $u_{ik}^*$ are called interaction PCA axis 'k' scores for genotype i and environment j, respectively. in biplot, genotype i is displayed as a point define by all $u_{ik}^*$ values, environment is displayed  as a point defined by all $v_{jk}^*$ values. singular value decomposition is implemented by $u_{ik}^*=\lambda_k^fu_{ik}$ and $v_{ik}^*=\lambda_k^{1-f}v_{jk}$, where f is the partitioning factor for PCA axis k and can ($0\leq f\leq1$). Among numerous way to construct biplot , symmetrical scaling (f=.5) is the method used in AMMI \citep{Gauch1988}.
+
+The results of AMMI can be presented graphically in the for of biplot \citep{Shafii1998,Ebdon2002, Vargas1999} in which the genotype and environment scores of first two or three multiplicative terms are represented by a vector in space, with the starting point at origin and end points determined by the scores. The distance between two genotype vector is indicative of the amount of interaction between the genotypes. The cosine of the angle between two genotypes (or environments) vector approximate the correlation between the genotypes or environments with respect to its interaction. The acute angle indicate positive correlation, while parallel vectors (in exactly same directions) representing a correlation of 1. Obtuse angle represent negative correlation, with opposite directions indicating a correlation -1. Perpendicular directions represents a correlation of 0. The relative amount of interaction for a particular genotype over environment can be obtained from orthogonal projection of the environment vectors on the line determined by the direction of corresponding genotype vector. Environmental vectors having same direction as the genotype vectors , have positive interactions where as vector in the opposite directions have negative interaction.       
+
+\subsubsection{AMMI stability value (ASV)}
+The AMMI model does not make provision for a qualitative  stability measures, yet such measures are essential in order to quantify and rank genotypes according to their yield stability. The AMMI stability value (ASV) was calculated using, the formula suggested by \citet{Purchase1997} to rank genotypes:
+\begin{eqnarray}
+\text{ASV} = \sqrt{((\frac{\text{SS IPC 1}}{\text{SS IPC 2}}(\text{IPC 1}))^2+(\text{IPC 2})^2} \nonumber
+\end{eqnarray}
+Where\\
+\begin{eqnarray}
+\text{ASV} &=& \text{AMMI stability value} \nonumber \\
+\text{SS} &=& \text{Sum of square} \nonumber \\
+\text{IPC1} &=& \text{Interaction principal component 1 } \nonumber\\
+\text{IPC1} &=& \text{Interaction principal component 2 } \nonumber
+\end{eqnarray}
+The genotypes with lowest ASV values were considered the most stable. (SS-IPC1/SS-IPC2) is the weight given to the IPC-1 value by dividing IPC-1 sum of square by IPC-2 sum of squares. The larger the absolute IPC scores, the more specifically adapted a genotype to certain environments. Smaller IPC scores, indicate a more stable genotype across environments.
+
+\subsubsection{Genotype Selection Index (GSI)}
+Based on the rank of mean yield ($Y_i$) across environments and rank of AMMi stability value (AS$V_i$), selection index call GSI, was calculated for the genotypes using formula used by \citep{Farshadfar2008}: 
+\begin{center}
+	GSI = Rank of ASV + Rank of $Y_i$
+\end{center}
+The least GSI was considered as the most stable with high seed yield 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{GGE-biplot}
+The biplot method originated by \citep{GABRIEL1971}, its use was subsequently expanded by \citep{Kempton1984} and \citep{Zobel1988}. The extensive usefulness of GE was recently elucidated by \citep{Yan2000}. 
+
+The two way table of genotype $\times$ environment data for wheat yield was analyzed using GGE biplot. The GGE biplot analysis produces biplots derived from principal components analysis of the environment centered data (data minus the environment means), which therefore represents the genotype main effect and G $\times$ E interaction. The genotypes and environments are represented by points on a two dimensional plot of principal component (PC) scores (PC 1 and PC 2). The distance of an environment from the biplot origin is measure of its ability to discriminate genotypes, the distance between two environments measures their dissimilarity in discriminating the genotypes, and angle between the environments represents their correlation. Acute angles represent positive correlation, obtuse angles show negative correlation and the right angles represents no correlation between the environments \citep{Yan2005}.
+
+ In general, the proximity of genotypes to environments on the biplots is an indication of their similarity, and the proximity of genotypes to environments is an indication of degree of positive interaction with the environments. The GGE biplot provides a range of viewing option to investigate relationship between environments and genotypes, identify mega-environments, examine the representativeness of test environments as selection sites, rank genotypes based on performance in 
+ single environment. 
+ \subsubsection{Biplot inner product property }
+ Mathematically, a biplot may be regarded as a graphical display of matrix multiplication. Given a matrix \textbf{G} with m rows and r columns and a matrix \textbf{E} with r rows and n columns, they can be multiplied to give a third matrix \textbf{P} with m rows and n columns. If r=2, then matrix \textbf{G} can be displayed as m points in a 2-D plot, with the first column as the abscissa (x-axis) and second column the ordinate (y-axis). Similarly, matrix \textbf{E} can be displayed as n points in 2-D plot, with the 1st row as a abscissa and 2nd row the ordinate. A 2-D is biplot is formed if the two plots are superimposed, Which would contain m+n points. An interesting property of this biplot is that it not only displays matrices \textbf{G} and \textbf{E}, but also implicitly displays the m$\times$n values of matrix \textbf{P}, because each element of \textbf{P} can be visualized as;
+ \begin{eqnarray}
+ P_{ij}=x_ix_i^\prime+y_iy_i^\prime=|\textbf{g}_i||\textbf{e}_j|cos\theta_{ij}
+ \end{eqnarray}     
+ Where $(x_i,y_j)$ are the coordinates for row i and $x_i^\prime y_i^\prime$ are coordinates for column j. $|\textbf{g}_i|$ is the vector length for row i and $ |\textbf{e}_j|$ is the vector length for column j. $\theta_{ij}$ is the angle between vectors of row i and column j.
+ 
+ Above equation is referred to as the inner-product property of the biplot. It is the most important property of a biplot. It not only allows each element of matrix \textbf{P} to be estimated but also constitute the basis for visualizing the pattern in matrix \textbf{P}, including ranking the rows relative to any column, ranking the columns relative to any row, comparing any two rows relative to individual columns, identifying the rows with largest (or smallest)value for each column, or vice versa.
+ \subsubsection{Data centering prior to singular value decomposition}
+ In a GE two-way table Y, the value of each cell can be recorded as mixed effect of the grand mean($\mu$) modified by the genotype (row) main effect ($\alpha_i$), the environment(columns) main effect ($\beta_j$), and the specific genotype(row) by environment (column) interaction $(\alpha\beta)_{ij}$, plus any random error $\epsilon_{ij}$:
+ \begin{eqnarray}
+ Y_{ij}=\mu+\alpha_i +\beta_j+(\alpha\beta)_{ij}+\epsilon_{ij} 
+ \end{eqnarray}
+ The matrix \textbf{P} that is subject to SVD can be any part of Y, resulting indifferent models, ignoring random error:
+  \begin{eqnarray}
+ p_{ij} &=& Y_{ij}=\mu+\alpha_i +\beta_j+(\alpha\beta)_{ij} \\
+ p_{ij}& =& Y_{ij}-\mu=\alpha_i +\beta_j+(\alpha\beta)_{ij} \\
+ p_{ij} &=& Y_{ij}-\mu-\alpha_i =\beta_j+(\alpha\beta)_{ij}  \\
+  p_{ij} &=& Y_{ij}-\mu-\beta_j=\alpha_i(\alpha\beta)_{ij}  \\
+  p_{ij} &=& Y_{ij}-\mu-\alpha_i -\beta_j=(\alpha\beta)_{ij}  
+  \end{eqnarray}
+ 
+ \subsubsection{Data scaling and singular values decomposition and Singular values partitioning}
+The GGE biplot model can be generally presented as:
+\begin{eqnarray}
+P_{ij}=(Y_{ij}-\mu-\beta_j)/s_j=(\alpha_i+(\alpha\beta)_{ij})/s_j
+\end{eqnarray}
+Where $s_j$ is scaling factor. Thus there can be different GGE models, depending on the definition of $s_j$. When $s_j$ is the standard deviation for column j, the data is said to "standardized" because all columns are give same weight. when $s_j$ is the standard error in environment j, any  heterogeneity among the environments will be removed. Replicated data are essential for estimating standard error in each environment. Data standardization is essential for biplot analysis of two-way tables in which the columns are of different units or scales. GGE biplot allows each of the above models to be scaled in various ways.
+
+The practical application of a biplot in data analysis was started most clearly by the founder of biplot \citep{GABRIEL1971}: any two way table can be graphically analyzed using a 2-D biplot as soon as it can be sufficiently approximated by a rank-2 matrix. Give a genotype by environment two way table \textbf{P} of g genotypes and e environments,  biplot analysis started with its decomposition into three matrices \textbf{G}, \textbf{L} and \textbf{E} via SVD;
+\begin{eqnarray}
+\textbf{P}_{(g\times e)}=\textbf{G}_{(g\times r)}\textbf{L}_{(r\times r)}\textbf{E}_{(e\times r)}^\prime
+\end{eqnarray}
+Matrix \textbf{G} has g row and r columns; it characterizes the m genotypes. Matrix \textbf{E} has r rows and e columns; it characterizes the e environments. Matrix \textbf{L} is a diagonal matrix containing r singular values. in summation notation, SVD decomposes \textbf{P} into r principal components (PC), each a genotype vector $(u_i)$, an environment vector $(v_j)$ and singular values $(\lambda)$:
+\begin{eqnarray}
+P_{ij}=\sum_{k=1}^r \lambda_k u_{ik}v_{jk}
+\end{eqnarray}
+Where r is the rank of the two way table. Another requirement of SVD is that $\textbf{G}^\prime\textbf{G}=\textbf{I}_r=\textbf{E}^\prime\textbf{E}$, where $\textbf{I}_r$ is the r by r identity matrix.
+ The singular values must be partitioned into genotype and environment scores before a biplot can be constructed.
+ \begin{eqnarray}
+ P_{ij}=\sum_{k=1}^r  u_{ik}^*v_{jk}^*=\sum_{k=1}^r (\lambda_k^fu_{ik}^)(\lambda_k^{1-f}v_{jk})
+ \end{eqnarray}
+ Where f is the partitioning factor, which can be between 0 and 1. Among number of ways of singular value partitioning, column-metric preserving, row-metric preserving and symmetrical method {Gabrial 2002, Yan 2002}  are mostly used and are discussed below.
+  \subsubsection{Column-Metric preserving and associated interpretation}
+ When f=0, the singular values are entirely partitioned into the column (here environment) eigenvectors referred to as column-metric preserving or environment-focused scaling. Since $\textbf{E}^*=\textbf{EL}$, we have $\textbf{E}^*\textbf{E}^{*\prime}=\textbf{PP}^\prime$, which is sum of squares and cross product matrix of \textbf{P}. if \textbf{P} is column-centered then $\textbf{PP}^\prime$ is (r-1) times of covariance matrix. Therefore partitioning is appropriate for studying the relationship among column factors.
+  \subsubsection{Row-Metric preserving and associated interpretation}
+When f=1, the singular values are entirely into row eigenvectors, which is referred as row preserving or genotype focused scaling. Since $\textbf{G}^*=\textbf{GL}$, we have $\textbf{G}^*\textbf{G}^{*\prime}=\textbf{PP}^\prime$. Therefore, this partitioning recovers the Euclidean  distance among row factor (here genotype), is appropriate for visualizing the similarity/dissimilarity  among row factors. Because all of Singular values are partitioned into genotypes scores, the range of the genotype scores are likely to be many times greater than that of the environment scores. As a result, the environments in biplot are likely to be crowded relative to the genotypes. 
+ \subsubsection{Symmetrical partitioning and associated interpretation}
+When f=0.5, it is called symmetrical scaling. This type of scaling has the unique property that genotype scores have the same unit for both PCA axis 1 and PCA axis 2, which is square root of original yield. This property makes it possible to visualize the relative magnitude of genotype variation and environment variation for both axes.
+
+
+
+
+
+
+
+
+
+
+
+\section{Bayesian Approach}
+As discussed earlier classical methods offer opportunities for GGE or GE in modeling and can explained it very well but there are some limitations of these methods. 
+\begin{itemize}
+\item principal component analysis (PCA) fails to identify and separate the significant genotype and environment main effects \citep{Zobel1988}
+\item Fixed effect AMMI model have no inferential statistics attached to the interaction parameters  used to build the biplot \citep{Yang2009}.
+\item A method to obtain Confidence regions in the biplot representation in frequentist frame work was proposed by \citep{Denis1996}. It was based on asymptotic consideration; however, these confidence regions are no implemented  for models with more than two bilinear terms.
+\item The AMMI model applies singular value decomposition (SVD)to the residuals of a specific linear model, to decompose the genotype-by-environment interaction into a sum of multiplicative terms. However, SVD being a least squares method is highly sensitive to contamination and the presence of even a single outliers may draw the leading principal component towards itself resulting in possible mis-interpretations and in turn lead to bad practical decisions \citep{Rodrigues2015}.
+\end{itemize}
+To overcome these problems \citep{PEREZ-ELIZALDE2011} suggested a Bayesian treatment of AMMI models in the frame work of GE data. Two main points motivate this approach
+\begin{itemize}	
+\item Firstly, a Bayseian strategy offers the possibility to incoporate prior information on the phenomenon under study (experts knowledge, historical data, etc.). 
+
+\item Secondly, distributions of any quantity of interest are available through the prior distribution. These distribution may be straight-forwardly used, for instance to, to derive credible areas in the biplot representation, which can be helpful for the interpretation.
+\item Another strong point of the Bayesian approach is that it can be straightforwardly used
+on incomplete datasets. Consequently, an interesting research perspective of our work is to
+assess our proposal in relation to unbalanced data. Many methods are available to deal with
+missing values in bilinear models. A common approach to obtain point estimates
+for parameters consists in using alternating weighted least squares algorithms or iterative
+imputation algorithms \citep{Gabriel1979, Kiers1997, Gauch1990}. 
+
+\item Estimating the variability of the parameters in a missing data framework
+is more difficult, and some authors \citet{Adams2002} and \citet{Josse2011} suggested
+approaches based on bootstrap simulations. Using a Bayesian point of view will directly
+provide credible regions for the parameters through the posterior distributions, which is
+very appealing. In addition, credible regions will also be available for missing entries. We
+mention that  draw a parallel between the way missing values are
+handled and the over-parameterization issue.
+\end{itemize}
+The basis of all bayesian statistics is Bayes's theorem, which is way back originated by \citep{Bayes1763}.
+             \begin{center}
+	       \textbf{posterior} $\varpropto$ \textbf{prior} $\times$ \textbf{likelihood}
+               \end{center}
+
+Once the data has been observed, the likelihood function, or simply the
+likelihood, is constructed. The likelihood is the joint probability function of the
+data, but viewed as a function of the parameters, treating the observed data as
+fixed quantities. Assuming that the data values, $y= (y_1,...,y_n)$ are obtained
+independently, the likelihood function is given by
+\begin{eqnarray}
+L(\theta|y)=p(y_1,..., y_n|\theta)\prod_{i=1}^{n} p(y_i|\theta) \nonumber
+\end{eqnarray}
+In the Bayesian framework, all of the information about $\theta$ coming directly from
+the data is contained in the likelihood. Values of the parameters that correspond
+with the largest values of the likelihood are the parameters that are most supported
+by the data \citep{Glickman2007}.
+
+To obtain the posterior distribution, $p(\theta|y)$, the probability distribution
+of the parameters once the data have been observed, we apply Bayes'theorem:
+\begin{eqnarray}
+	P(\theta|y)=\frac{p(\theta)(\theta|y)}{\int p(\theta)p(y|\theta)d\theta}    \nonumber
+\end{eqnarray}
+In this study von Mises-Fisher distribution is used as prior and given below.
+\subsection{Von Mises-Fisher distribution}
+The set $r \times k$ orthonormal matrices is called the Stiefel manifold, which is denoted as  $v_{k,r}$. A probability distribution on $v_{k,r}$, whose density has exponential form with linear and quadratic terms, is the matrix Bingham-Von Mises distribution. The denisty function is given by
+\begin{eqnarray}
+p(X|\textbf{A,B,C}) \varpropto \text{etr}(\textbf{C}^\prime \textbf{ X} +\textbf{BX}^\prime \textbf{AX}) \nonumber
+\end{eqnarray}
+Where \textbf{A} and \textbf{B} may be Assumed symmetric and diagonal matrices, respectively. A random variable \textbf{X} with Von Mises Fisher distribution is denoted as $\textbf{X} \thicksim BFM(\textbf{A=0, B=0, C})$ \citep{Khatri1977}. The normalization of Von Mises-Fisher density is given by the hyper-geometric function of a matrix argument $F_1(\frac{1}{2}\gamma,\frac{1}{4}D_\phi^2)$,Where $D_\phi$ is the diagonal matrix of singular values of \textbf{C} \citep{Herz1955,James1964}
+
+
+\subsection{Likelihood Function}
+The likelihood function for parameters of model (3.3) is
+\begin{equation}
+L(\mu,\bm{\alpha},\bm{\beta},\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y}) \varpropto \tau^\frac{\text{nrc}}{2} \exp\{-\frac{\tau}{2}[\text{n tr} (\textbf{EE}^\prime)+(n-1) \text{tr}(\textbf{SS}^\prime)]\} \end{equation}  
+where \\
+ $\tau=1/\sigma^2$\\ $\textbf{S}=\{\sqrt{s_{ij}^2}\}$\\
+$s_{ij}^2=\sum_{l=1}^n\frac{(\bar{Y}_{ij}-Y_{ijl})^2}{n-1}$ \\
+ $\textbf{E = Y}-\mu\textbf{1}_r\textbf{ 1}_c^\prime-\bm{\alpha} \otimes\textbf{1}_c^\prime-\bm{\beta}^\prime\otimes \textbf{1}_r-\textbf{UDV}^\prime$
+\subsection{Prior Distribution}
+For assessing the prior distributions of the unknowns, we used conditional conjugate prior distributions such that the posterior distribution is proper and can be used to incorporate valuable prior information from experimenter expertise or from information generated by previous trials. Note that, since the matrices \textbf{U} and \textbf{V} are orthonormal and \textbf{D} is diagonal,\\
+\begin{eqnarray}
+\text{tr}(\textbf{1}_r\textbf{1}_c^\prime \textbf{VDU}^\prime)&=& 0 \nonumber\\
+\text{tr}((\bm{\alpha} \otimes\textbf{1}_c^\prime)\textbf{ VDU}^\prime)&=& 0 \nonumber \\
+\text{tr}((\bm{\beta}^\prime \otimes \textbf{1}_r) \textbf{VDU}^\prime)&=& 0 \\
+\text{tr}((\textbf{UDV}^\prime)(\textbf{UDV}^\prime)^\prime)&=& \text{tr}(\textbf{D}^\prime \textbf{D})=\sum_{k=1}^t \lambda_k^2 \nonumber \\
+\text{tr}\{(-2\textbf{Y} + \textbf{UDV}^\prime)(\textbf{UDV}^\prime)^\prime\}&=& \text{tr}\{(\textbf{D}-\textbf{U}^\prime \textbf{YV})^\prime (\textbf{D}-\textbf{U}^\prime\textbf{ YV})-(\textbf{U}^\prime \textbf{YV})^\prime(\textbf{U}^\prime \textbf{YV})\} \nonumber
+\end{eqnarray}
+Thus it can be shown from (3.3) that, given $\bm{\theta}=(\mu,\bm{\alpha},\bm{\beta})$ and $\tau$, the conditional likelihood function for the matrices (\textbf{U}, \textbf{D},\text{ V}) is
+\begin{eqnarray}
+\text{L}(\textbf{U},\textbf{V},\textbf{D}|\bm{\theta},\tau,\textbf{Y})&=& L(\textbf{U},\textbf{V},\textbf{D}|\tau,\textbf{Y}) \varpropto \exp \{-\frac{n\tau}{2}\text{tr}((-2\textbf{Y}+\textbf{UDV}^\prime)(\textbf{UDV}^\prime)^\prime\} 
+\nonumber\\
+&=& \text{etr}\{-\frac{n\tau}{2}tr((-2\textbf{Y}+\textbf{UDV}^\prime)(\textbf{UDV}^\prime)^\prime\} \end{eqnarray}
+where 'etr' is the exponential for the trace. The conditional likelihoods for \textbf{U},\textbf{V} and \textbf{D} are
+
+\begin{eqnarray}L(\textbf{U},\textbf{V},\textbf{D}|\tau,\textbf{Y}) &\varpropto& \text{etr} \{n\tau \textbf{YVDU}^\prime\} \\
+ L(\textbf{U},\textbf{V},\textbf{D}|\tau,\textbf{Y}) &\varpropto& \text{etr} \{n\tau \textbf{Y}^\prime \textbf{UDV}^\prime\} \\
+L(\textbf{U},\textbf{V},\textbf{D}|\tau,\textbf{Y}) &\varpropto& \text{etr} \{-\frac{n\tau}{2}(\textbf{D}-\textbf{U}^\prime\textbf{ YV})^\prime(\textbf{D}-\textbf{U}^\prime \textbf{YV}) \} \nonumber \\
+&\varpropto& \text{etr} \{-\frac{n\tau}{2}\sum_{k=1}^t(\lambda_k-l_k)^2 \}, \lambda_1 >\lambda_2> . . .>\lambda_t \end{eqnarray} \\
+respectively, where \\
+$(l_1,...,l_k)$=diag $(\textbf{U}^\prime \textbf{YV})$.
+
+From expression (3.19) it follows that a conditional conjugate prior for \textbf{U} is
+\begin{equation}
+	\pi(U|\tau)\varpropto etr \{\tau n_0 \textbf{Y}_0\textbf{V}_0 \textbf{D}_0 \textbf{U}^\prime\}
+\end{equation}
+where $\textbf{Y}_0$ could be interpreted as the matrix of prior cell average such that
+\begin{eqnarray}
+	\textbf{Y}_0=\mu_0\textbf{1}_r\textbf{1}_c^\prime+\bm{\alpha}_0\otimes \textbf{1}_c^\prime+\bm{\beta}_0^\prime\otimes\textbf{ 1}_r+\textbf{U}_0\textbf{D}_0\textbf{V}_0^\prime \nonumber
+\end{eqnarray}
+that is, $\textbf{D}_0$ is diagonal matrix of prior singular values, and $\textbf{U}_0$ and $\textbf{V}_0$ are orthonormal matrices such that $\textbf{U}_0\textbf{D}_0\textbf{V}_0^\prime$ is the singular value decomposition (SVD) of $\textbf{Z}_0=\textbf{Y}_0-\mu_0\textbf{1}_r\textbf{1}_c^\prime-\bm{\alpha}_0\otimes \textbf{1}_c^\prime-\bm{\beta}_0^\prime\otimes\textbf{ 1}_r$, where $\mu_0$,$\bm{\alpha}_0$ and $\bm{\beta}_0$ are prior values for linear effects.
+
+Similarly, from (3.20), a prior for \textbf{V} is
+\begin{equation}
+	\pi(V|\tau)\varpropto etr\{\tau n_0\textbf{Y}_0^\prime \textbf{U}_0 \textbf{D}_0\textbf{V}^\prime\}
+\end{equation}
+Both (3.22) and (3.23) are von Mises--Fisher distributions. From (3.21) for each one of the elements $\lambda_1 >\lambda_2 > . . . > \lambda_k$ on the diagonal of \textbf{D}, the conditional conjugate prior distribution are left truncated normal with marginal densities of the form
+\begin{equation}
+\pi (\lambda_k|\tau)=\{1-\Phi(\sqrt{n_0\tau}(\lambda_{k+1}-l_k^0))\}^{-1} N(\lambda_k|l_k^0(n_0\tau)^{-1})\end{equation}
+For linear terms $\bm{\theta}=(\mu,\bm{\alpha},\bm{\beta})$ of model (3.1), a conditional conjugate prior is a (1+r+c) multivariate normal distribution with mean $\bm{\theta}_0=(\mu_0,\bm{\alpha}_0,\bm{\beta}_0)$ and singular block diagonal covariance matrix
+
+\begin{eqnarray}
+	(n_0\tau)^{-1}	\begin{bmatrix}
+	(r_0c_0)^{-1} & 0 & 0 \\
+	0 & c_0^{-1}\textbf{K}_r\textbf{K}_r^\prime & 0\\
+	0 & 0 & r_0^{-1}\textbf{K}_c\textbf{K}_r^\prime
+	\end{bmatrix} \nonumber
+	\end{eqnarray}
+
+where $\textbf{K}_w$ is a matrix such that $ \textbf{K}_w^\prime \textbf{K}_w=I_{w-1}$ and $\textbf {K}_w^\prime \textbf{K}_w=\textbf{I}_w-\frac{1}{w}\textbf{J}_w$, where $\textbf{J}_w$ is a $w \times w $ matrix with all its elements equal to one. Because of the restrictions $\bm{\alpha}^\prime1_r=0$ and $\bm{\beta}^\prime 1_c=0$, the distribution characterized by the covariance matrix above is a singular multivariate normal distribution that does not have a density. For a prior density we need to choose a one to one transformation like $(\bm{\alpha}^*,\bm{\beta}^*)=(\textbf{K}_r^\prime\bm{\alpha},\textbf{K}_c^\prime\bm{\beta})$.\\
+Let $\bm{\theta}^*=(\mu,\bm{\alpha}^*,\bm{\beta}^*)$; then the prior denisty of $\bm{\theta}^*$ is
+\begin{eqnarray}
+	\pi(\bm{\theta}^*|\tau) &\varpropto& \left|\Sigma_0\right|^\frac{-1}{2} \exp \{-\frac{1}{2}(\bm{\theta}^*-\bm{\theta}_0^*)^\prime \Sigma_0^{-1}(\bm{\theta}^*-\bm{\theta}_0^*)\} \nonumber \\
+\Sigma_0&=&(n_0\tau)^{-1}	\begin{bmatrix}
+	(r_0c_0)^{-1} & 0 & 0 \\
+	0 & c_0^{-1}\textbf{I}_{r-1} & 0\\
+	0 & 0 & r_0^{-1} \textbf{I}_{c-1}
+	\end{bmatrix}
+	\end{eqnarray} 
+which is the density of a (1+ r-1+c-1) multivariate normal distribution with mean, \\
+ \begin{eqnarray}
+ \bm{\theta}_0^*&=&(\mu_0,\bm{\alpha}_0^*,\bm{\beta}_0^*)=(\mu,\textbf{K}_r^\prime \bm{\alpha}_0, \textbf{K}_c^\prime \bm{\beta}_0)  \nonumber \\
+ \Sigma_0 &=& \text{ covariance matrix}  \nonumber
+\end{eqnarray}
+The joint likelihood (3.16) suggests that conjugate prior for $\tau$ is gamma distribution with parameters a/2 and $s_0^2/2$; that is 
+\begin{equation}
+	\pi(\tau) \varpropto \tau^{\frac{a}{2}-1} \text{exp} \{-\frac{a s_0^2}{2}\tau\}
+\end{equation}
+or equivalently, $a s_0^2\tau \thicksim \chi_a^2$; thus a and $s_0^2$ may be considered as prior values for sample size and variance, respectively. Finally, the joint prior for $(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D}, \tau)$ is :
+\begin{equation}
+	\pi(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau)=\pi(\bm{\theta}^*|\tau)\pi(\textbf{U}|\tau)\pi(\textbf{D}|\tau)\pi(\textbf{V}|\tau)\pi(\tau)
+\end{equation} 
+
+The proposed prior has practical advantages and is flexible enough to incorporate prior uncertainty about unknown parameters. On the other hand, the main disadvantage of the prior used by  \citet{Jarquin2011} for implementing their Bayesian approach was the elicitation of the distribution of each element on the matrices given by the SVD decomposition of the interaction. 
+
+In our proposal, the incorporation of prior information is straightforward and intuitive, as it only needs to express our beliefs in the prior cell averages $\textbf{Y}_0$ and prior linear effects $\bm{\theta}_0$. Then $\textbf{U}_0$,$\textbf{V}_0$ and $\textbf{D}_0$ are obtained from the SVD decomposition of $\textbf{Z}_0$, under the restrictions $\textbf{U}_0^\prime \textbf{1}_r=0$ and $\textbf{V}_0^\prime \textbf{1}_c=0$. The prior distribution of the linear effects is completely specified by giving a belief $\bm{\theta}_0^*$ about $\bm{\theta}^*$. This prior belief may be expressed as a function of $Y_0$; for example, $\bm{\theta}_0^*(\textbf{Y}_0)=(\frac{\textbf{1}^\prime \textbf{Y}_0 \textbf{1}_c}{r_0c_0}$,$\frac{\textbf{K}^\prime \textbf {Y}_0 \textbf{1}_c}{c_0}$,$\frac{\textbf{K}^\prime \textbf{Y}_0^\prime \textbf{1}_r}{r_0}) $. Also, it is important to note that a vague prior for '$\tau$' implies diffuse priors for all the other parameters. Then, an objective or default Bayesian analysis could be performed by setting small values to the hyper-parameter a in the prior for $\tau$ given by(3.26). There for , we may summarize our prior information by giving, a prior, a prediction of the two-way array of means $\textbf{Y}_0$ and a measure of our prior uncertainty $s_0^2$ given a prior sample size 'a'. 
+
+\subsection{Posterior Distribution And GIBBS Sampler}
+The joint posterior distribution is obtained by combining the likelihood function that is
+\begin{center}
+	\textbf{posterior} $\varpropto$ \textbf{prior} $\times$ \textbf{likelihood}
+\end{center}
+so here the joint posterior distribution is obtained by combining the likelihood function (3.16) and the prior distribution (3.27),
+\begin{eqnarray}
+	\pi(\bm{\theta}^*|\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y}) \varpropto L(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y})\pi(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau) \nonumber
+\end{eqnarray}
+where L$(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y})$ is a re-parameterization of L$(\bm{\theta},\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y})$. The marginal posterior distribution, which involves high dimensional integration on complex spaces, is needed for marginal inference about the unknowns. In order to use a Markov Chain Monte Carlo (MCMC) method through the Gibbs sampler, the full conditional posterior distributions, which are known excepfor the proportionality constants, are needed. These distributions are computed by considering the joint posterior as a function only of a variable when fixing the others. Thus, the conditional posterior for $\bm{\theta}^*$ is
+
+\begin{equation*}
+	\pi(\bm{\theta}^*|\textbf{U},\textbf{V},\textbf{D},\tau,\textbf{Y}) \varpropto L(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y})\pi(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau) \nonumber
+\end{equation*}	
+Knowing that the conditional likelihood function of (\textbf{U,V,D}) does not depend on $\bm{\theta}^*$, and that given $\tau$, the prior for $\bm{\theta}^*$is independent of (\textbf{U,V,D}), then
+\begin{eqnarray}
+	\pi(\bm{\theta}^*|\textbf{U},\textbf{V},\textbf{D},\tau,\textbf{Y})&=& \pi(\bm{\theta}^*|\tau,\textbf{Y})\varpropto L(\bm{\theta}^*|\tau,\textbf{Y})\pi(\bm{\theta}^*|\tau) \nonumber \\
+	&\varpropto& L(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y})\pi(\bm{\theta}^*|\tau)/L(\textbf{U},\textbf{V},\textbf{D}|\tau,\textbf{Y}) \nonumber\\
+	&	\varpropto & \text{exp} \{-\frac{n\tau}{2}\text{tr}(\textbf{ZZ}^\prime)\}\pi(\bm{\theta}^*|\tau) \nonumber
+\end{eqnarray}
+where,\\
+ $\textbf{Z}=\textbf{Y}-\mu \textbf{1}_r \textbf{1}_c^\prime-\bm{\alpha} \otimes1_c^\prime-\bm{\beta}^\prime\otimes\textbf{1}_r|_{\bm{\alpha}=\textbf{K}_r\bm{\alpha}^*,\bm{\beta}=\textbf{K}_c\bm{\beta}^*}$\\
+it can be shown that the conditional posterior of $\bm{\theta}^*$ is multivariate normal with density :
+\begin{eqnarray} \pi(\bm{\theta}^*|\tau,\textbf{Y})&=& N_{r+c-1}(\bm{\theta}^*|\bm{\theta}_n^*,\bm{\Sigma}_n^*)\nonumber \\ 
+\text{covariance matrix}& =& \bm{\Sigma}_n^*=(\bm{\Sigma}_0^{-1}+\bm{\Sigma}_n^{-1}) \nonumber \\
+\text mean &=& (\bm{\theta}^*=(\bm{\Sigma}_0^{-1}+\bm{\Sigma}_n^{-1})\times (\bm{\Sigma}_0^{-1}\bm{\theta}_0^*+\bm{\Sigma}_n^{-1}\hat{\bm{\theta}}_n^*)) \nonumber 
+\end{eqnarray}
+ and with 
+ \begin{eqnarray} 
+ \hat{\bm{\theta}}_n^*=(\frac{\textbf{1}^\prime \textbf{Y} \textbf{1}_c}{rc},\frac{\textbf{K}^\prime \textbf{Y} \textbf{1}_c}{c},\frac{\textbf{K}^\prime \textbf{Y}^\prime\textbf{1}_r}{r}) \nonumber
+ \end{eqnarray} 
+ and 
+\begin{eqnarray}
+	\Sigma_n=(n\tau)^{-1}	\begin{bmatrix}
+	(rc)^{-1} & \bm{0} & \bm{0} \\
+	\bm{0} & c^{-1}\textbf{I}_{r-1} & \bm{0}\\
+	\bm{0} & \bm{0} & r^{-1} \textbf{I}_{c-1}
+	\end{bmatrix} \nonumber
+\end{eqnarray}	
+We may use the conditional likelihoods given by (3.19)--(3.21) to calculate the conditional posterior for \textbf{U},\textbf{V} and \textbf{D}; that is,
+\begin{eqnarray}
+	\pi(\textbf{U}|\textbf{V},\textbf{D},\tau,\textbf{Y})&\varpropto& L(\textbf{U}|\textbf{V},\textbf{D},\tau,\textbf{Y})\pi(\textbf{U}|\tau) \nonumber \\
+	&\varpropto& etr\{\tau(n_0\textbf{Y}_0\textbf{V}_0\textbf{D}_0+n\textbf{YVD})\textbf{U}^\prime\} \\
+	\pi(\textbf{V}|\textbf{U},\textbf{D},\tau,\textbf{Y})&\varpropto& L(\textbf{V}|\textbf{U},\textbf{D},\tau,\textbf{Y})\pi(\textbf{V}|\tau) \nonumber \\
+		&\varpropto& etr\{\tau(n_0\textbf{Y}_0^\prime \textbf{U}_0\textbf{D}_0+n\textbf{Y}^\prime \textbf{UD})\textbf{V}^\prime\} \\
+	\pi(\textbf{D}|\textbf{U},\textbf{V},\tau,\textbf{Y})&\varpropto& L(\textbf{D}|\textbf{U},\textbf{V},\tau,\textbf{Y})\pi(\textbf{D}|\textbf{U},\textbf{V},\tau) \nonumber \\
+	&\varpropto& exp\{-\frac{n\tau}{2}\sum_{k=1}^{t}(\lambda_k-l_k)^2\}\prod_{k=1}^{t}\pi(\lambda_k|\tau) \nonumber \\
+	&\varpropto& \prod_{k=1}^{t}\{1-\Phi( \sqrt{\frac{\tau{-1}}{n_0+n}} (\lambda_{k+1}-\frac{n_0l_k^0+nl_k}{n_0+n}  )  ) \}^{-1} \nonumber \\
+	&\times& N(\lambda_k|\frac{n_0l_k^0+nl_k}{n_0+n},\frac{\tau^{-1}}{n_0+n} ) \nonumber \\
+	\lambda_1 >\lambda_2 > . . . >\lambda_t >\lambda_{t+1}=0 \nonumber 
+	\end{eqnarray}
+	Finally, the conditional posterior for the percision of $\tau$ is a gamma with density  
+\begin{eqnarray}
+	\pi (\tau|\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\textbf{Y})&\varpropto& L(\bm{\theta}^*,\textbf{U},\textbf{V},\textbf{D},\tau|\textbf{Y}) \pi(\tau) \nonumber\\
+	&\varpropto& Ga(\tau|\frac{a_n}{2},\frac{b_n}{2}) \nonumber
+\end{eqnarray}
+where
+\begin{eqnarray}
+	a_n&=& a+nrc  \nonumber\\
+	b_n&=& as_0^2+n(tr(\textbf{EE}^\prime))+(n-1)tr(\textbf{SS}^\prime) \nonumber
+\end{eqnarray}
+\subsubsection{Gibbs Sampler}
+The Gibbs Sampler is implemented by sequentially drawing simulated samples from the full conditional posterior distributions; thus we may proceed with the following algorithm.
+Let 's' be the desired length of the Markov chain to be simulated.
+ Let $\textbf{U}^{(0)}$,$\textbf{V}^{(0)}$ and $\textbf{D}^{(0)}$ be the initial values of the simulated Markov chain.
+For $i=0,...,s$ simulate
+\begin{eqnarray}
+	\tau^{(i+1)} &\thicksim& \pi(\tau|\bm{\theta}^{*(i)},\textbf{U}^{(i)},\textbf{D}^{(i)},\textbf{Y}) \nonumber \\
+	\bm{\theta}^{*(i+1)} &\thicksim& \pi (\bm{\theta}^*|\tau^{(i+1)},\textbf{Y}) \nonumber\\
+	\textbf{U}^{(i+1)} & \thicksim & \pi(\textbf{U}|\tau^{(i+1)}) \nonumber \\
+	\textbf{D}^{(i+1)} &\thicksim & \pi(\textbf{D}|\tau^{(i+1)}) \nonumber\\
+	\textbf{V}^{(i+1)} &\thicksim& \pi(\textbf{V}|\tau^{(i+1)}) \nonumber
+\end{eqnarray}
+After a burn-in period, we assume that the generated samples arise from the stationary distribution, i.e., joint posterior distribution $\pi (\theta^*,U,V,D,\tau|Y)$. For reversibility of the Markov chain, we may permute the order of simulation, but in what follows we use the order indicated above. Some standard convergence diagnostic tools may be used to determine an effective sample size; in the examples below, criteria for convergence of simulated Markov chains from \citet{Raftery1995} and \citet{Gelman1992} were used.

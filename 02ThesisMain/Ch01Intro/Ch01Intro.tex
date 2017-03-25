@@ -1,0 +1,50 @@
+\chapter{Introduction}\label{intro_chapter}
+
+Multi-environment experiments are commonly conducted to identify genotypes that have high yield and are less sensitive to adverse changes in environments. Genotypes do not perform similar in different environments so the presence of genotype by environment interaction (GEI) is of a great importance; it is necessary to analyze genotype environment interaction (GEI) to assess that how well genotypes perform in different environments.
+
+Superior genotypes or environments can be identified by exploring GEI \citep{Allard1964}. GEI revealed a basic principal is that, same genotypes do not exhibit similar behavior or pattern when environment condition change. Therefore, stability of genotypes is normally assessed by testing these genotypes in different conditions. these conditions may be locations, years or seasons etc. Combination of physical, chemical and biological factors are refereed as environment which may influence the growth of object. GE appear when genotypes are tested in multi-environmental conditions \citep{Becker1988}. \citet{ Magari1993}  found that environmental factors contribute in the stability of  yield an significantly effect the heterogeneity.
+
+Yield and grain quality are two very vital features to study for the evaluation of wheat crop. 
+Characteristics such as quality of wheat and yield vary differently in different environments \citep{Uhlen1998}, which takes into account environmental consequence on these characteristics. Biological processes and number of genes are highly interaction with traits like yield and quality . The mixture of genetic and ecological factors such as soil characteristics, precipitation, fertilization, soil and air temperature, as well as the genotype $\times$ environment  interaction  can be used to define these traits \citep{Peterson1992,Johansson2003}.
+ 
+ In Pakistan Environmental variation are very large so G$\times$E is expected will be high. So different genotype may have variation in yield in different environments. For selection of superior genotypes across location, it is important to determine magnitude instead of calculating average yield \citep{Gauch1997}. According to \citet{Simmonds1962} adaptation is a mechanism  in which a genotype shows the better stability in different environments. So  always researcher aim is to produce such genotypes which have good adaptation ability. 
+
+In multi environment trials (METs) the GE effects are more evident,  that have three main aims
+: a) Estimation and forecasting of experimental data yield level can be done more precisely  ; b) yield stability and genotypes adaptations to different environments can be determined; and c) selection of ideal genotype can be made which can provide guidance in future for suitable sites \citep{Crossa1990}.
+
+There are many methods to analyze GEI such as principal component analysis (PCA), cluster analysis and genotype and genotype by environment interaction (GGE) bi-plot analysis \citep{Yan2005}. But these methods have some drawbacks such as PCA fails in separation and identification of significant genotype and environment main effect, Cluster analysis just provide the graphical grouping of genotypes or environments ; so AMMI can be used to overcome these problems because it accomplishes the GE much efficaciously by having maximum variation explained by the interaction sum of squares \citep{Zobel1988}. Stability analysis can effectively be analyzed by AMMI model because it explores the GEI; that is why AMMI models are frequently used for GEI \citep{Crossa1990}. Further more AMMI model can be visualized by using bi-plots. The AMMI model which can be defined as follow:
+\begin{eqnarray}
+Y_{ij}=\mu+\alpha_i +\beta_j+\sum_{k=1}^t \lambda_k u_{ik}v_{jk}+\epsilon_{ij} 
+\end{eqnarray}
+Where $Y_{ij}$ is response, $\lambda_k$ = The singular value for k-th principal component axis and $u_{ik}$ = Element of left singular vector and  $v_{jk}$ = Element of right singular vector
+
+Although AMMI models are very useful for GEI but in AMMI model have some problems such as; 
+\begin{itemize}
+	
+\item It is difficult to explain the G$\times$E  structure by AMMI model when data set is incomplete or have missing values \citep{PEREZ-ELIZALDE2011}.
+\item The problem of over parameterization arises which make model much more complex, and  also the model does not use prior information \citep{JOSSE2014}.
+\item  Outliers or extremes can lead to misleading interpretation using Classical AMMI as it use ordinary least square method for estimation (OLS) , which can be significantly effected by those outliers \citep{Rodrigues2015} 
+\end{itemize}
+It was suggested that these problems can be tackled by Bayesian methodology . Bayesian approach is very useful because it make statistical interpretation easy by using standard MCMC algorithm \citep{Gelman2004}. \citet{Viele2000} applied uniform prior on the first column of $u_i$ as well as on the $v_j$ and obtain useful results. Gibbs sampling with embedded Metropolis-Hasting random walks is another tool of Bayesian approach to obtain estimates of interaction. Bayesian paradigm for principal component analysis was presented by \citet{Hoff2007} and \citet{Simdl2007}. Although it provides similar computational environment but it differ in linear part which contain grand mean and column effect. Bayesian approach is widely used to analyze problems like GEI because it provides relaxation to model constraints and uses prior knowledge of the data.
+
+\citet{Silva2015} suggested a Bayesian shrinkage AMMI  instead of classical Bayesian, although it gave high shrinkage value but it incorporate with credible intervals for biplots as compared to Bayesian AMMI. \citet{PEREZ-ELIZALDE2011} proposed a Bayesian approach for the treatment of problems with AMMI model using Von-Mises Fisher distribution as a prior, aiming two advantages i): Bayesian approach can be applied to GE data sets because it can facilitate in analysis by using prior information related to the experiment under study; ii) the distribution related to any any interest can be obtained by posterior distribution. Further more, credible interval obtained can be used for good interpretation and almost provide biplots similar to classical methods 
+\section{Objectives} 
+The objective of the study are as follow:
+\begin{itemize}
+	
+\item To examine the Genotype environment interaction using Bayesian approach.
+\item Graphical represent of bi-plots using prior information.
+\item To elaborate that Bayesian models can be easily adapted to GEI.
+\end{itemize}
+\section{Significance of study}
+Aim of study was to illustrate that Bayesian methodology can be implemented to yield. It was illustrated through credible intervals as well as by biplots that this approach can easily be adapted to explore the G$\times$E, which is often the area of concern for the researcher. 
+\section{Structure of study}
+The thesis is generally structured under five chapters as outlined below:
+\begin{itemize}
+	
+\item Chapter 1; Introduction part includes overall description of research by defining research
+objectives, and the structure of research and dissertation. 
+\item Chapter 2; This chapter has two parts; first part of this chapter describe about the classical methods used in literature. Second part of this chapter focus on Bayesian methodology . \item Chapter 3; Methodology and material used in this study was disused in this chapter. 
+\item Chapter 4; This chapter presented the main findings of  of classical methods and Bayesian approach for wheat crop data . The statistical software \cite{R2015} was used for analysis.
+\item The findings of the project were discussed in fifth chapter i.e Summary        
+\end{itemize}

@@ -1,0 +1,101 @@
+\documentclass{UAFThesis}
+
+\bibliography{03ThesisBibliography/UAFThesisBib.bib}
+
+\includeonly{%
+   01ThesisFront/01Title %
+,  01ThesisFront/02Declaration %
+,  01ThesisFront/03Signature %
+,  01ThesisFront/04Dedication %
+,  01ThesisFront/05Acknowledgment %
+,  02ThesisMain/Ch00Abstract/Ch00Abstract %
+,  02ThesisMain/Ch01Intro/Ch01Intro %
+,  02ThesisMain/Ch02LiteratureReview/Ch02LiteratureReview %
+,  02ThesisMain/Ch03MM/Ch03MM %
+,  02ThesisMain/Ch04RD/Ch04RD %
+,  02ThesisMain/Ch05Summary/Ch05Summary %
+}
+
+\begin{document}
+\frontmatter
+
+\let\cleardoublepage\relax
+\include{01ThesisFront/01Title}
+
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{Declaration}}
+\include{01ThesisFront/02Declaration}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{Signature}}
+\include{01ThesisFront/03Signature}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{Dedication}}
+\include{01ThesisFront/04Dedication}
+
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{Acknowledgment}}
+\include{01ThesisFront/05Acknowledgment}
+
+
+\setstretch{1.0}
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{Table of Contents}}
+\tableofcontents
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{List of Tables}}
+\listoftables
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{List of Figures}}
+\listoffigures
+
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{Abstract}}
+\setstretch{1.5}
+\include{02ThesisMain/Ch00Abstract/Ch00Abstract}
+
+
+%-------------------------------------------------------------------------
+
+\mainmatter
+\setstretch{1.5}
+\normalsize
+\pagenumbering{arabic}
+\include{02ThesisMain/Ch01Intro/Ch01Intro}
+\include{02ThesisMain/Ch02LiteratureReview/Ch02LiteratureReview}
+\include{02ThesisMain/Ch03MM/Ch03MM}
+\include{02ThesisMain/Ch04RD/Ch04RD}
+\include{02ThesisMain/Ch05Summary/Ch05Summary}
+
+
+\renewbibmacro{in:}{%
+\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\textsc{References}}
+
+\renewcommand*{\bibfont}{\normalsize}
+\begingroup
+\setstretch{1.0}
+\setlength
+\bibitemsep{10pt}
+\printbibliography
+\endgroup
+
+
+\end{document}
