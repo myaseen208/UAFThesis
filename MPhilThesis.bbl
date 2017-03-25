@@ -1,0 +1,2311 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nyt/global/}
+    \entry{Adams2002}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=bc09d2ee0021dc728b7a1dc8fab7b359}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=c6dc5ac57e08460555479e10ccd95539}{%
+           family={B},
+           familyi={B\bibinitperiod},
+           given={Walczak},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=dc2482055604315dd242b368165f3098}{%
+           family={C},
+           familyi={C\bibinitperiod},
+           given={Vervaet},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=8185c4ca4aa258217e3914640380c246}{%
+           family={PG},
+           familyi={P\bibinitperiod},
+           given={Risha},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=81066e1a395a35ebd9a9cda883014f6d}{%
+           family={DL.},
+           familyi={D\bibinitperiod},
+           given={Massart},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e82ba2a11e68c7d84c1de8c72afb3a27}
+      \strng{fullhash}{f63226a22c45f7f13977d5244b3503fa}
+      \strng{authornamehash}{e82ba2a11e68c7d84c1de8c72afb3a27}
+      \strng{authorfullhash}{f63226a22c45f7f13977d5244b3503fa}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Pharmaceutics}
+      \field{title}{Principal Component Analysis of Dissolution Data with Missing Elements}
+      \field{volume}{234}
+      \field{year}{2002}
+      \field{pages}{169\bibrangedash 178}
+      \range{pages}{10}
+    \endentry
+    \entry{Akter2014}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=64b4022629621f84fd3f2343d5cd1a2f}{%
+           family={Akter},
+           familyi={A\bibinitperiod},
+           given={Anowara},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=6f513c69f21afcce125aaa7434f89b0f}{%
+           family={M},
+           familyi={M\bibinitperiod},
+           given={Jamil\bibnamedelima Hassan},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=0519eb5e038ef8296a902a4dad53dbee}{%
+           family={M},
+           familyi={M\bibinitperiod},
+           given={Umma\bibnamedelima Kulsum},
+           giveni={U\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=8e5040d502d859fc411e40b8c56474ff}{%
+           family={MR},
+           familyi={M\bibinitperiod},
+           given={Islam},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=d9adf00cf9a88630509ff90a67c5f9b5}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Kamal},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=371237d18681262904bcae33256fd352}{%
+           family={M},
+           familyi={M\bibinitperiod},
+           given={Mamunur\bibnamedelima Rahman},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5275f483da7f0f289c70f564ffd315e4}
+      \strng{fullhash}{cb90c47ca5e55d05ec45900d77e49f8b}
+      \strng{authornamehash}{5275f483da7f0f289c70f564ffd315e4}
+      \strng{authorfullhash}{cb90c47ca5e55d05ec45900d77e49f8b}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Rice Research}
+      \field{title}{AMMI Biplot Analysis for Stability of Grain Yield in Hybrid Rice}
+      \field{volume}{2}
+      \field{year}{2014}
+      \field{pages}{2}
+      \range{pages}{1}
+    \endentry
+    \entry{Allard1964}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ec4cf64725747ed9100d970d3d0f610e}{%
+           family={Allard},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=462e5d36238356982b4a10d7261f4dff}{%
+           family={Bradshaw},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{42d3d38274d40dd43f68d667284bec37}
+      \strng{fullhash}{24019e1e9d95bdfd8f060037f8381df4}
+      \strng{authornamehash}{42d3d38274d40dd43f68d667284bec37}
+      \strng{authorfullhash}{24019e1e9d95bdfd8f060037f8381df4}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Implications of Genotype-Environmental Interactions in Applied Plant Breeding}
+      \field{volume}{4}
+      \field{year}{1964}
+      \field{pages}{503\bibrangedash 508}
+      \range{pages}{6}
+    \endentry
+    \entry{Annicchiarico1997}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=87dd7edc839225a6c91d6d0a94cba915}{%
+           family={Annicchiarico},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{87dd7edc839225a6c91d6d0a94cba915}
+      \strng{fullhash}{87dd7edc839225a6c91d6d0a94cba915}
+      \strng{authornamehash}{87dd7edc839225a6c91d6d0a94cba915}
+      \strng{authorfullhash}{87dd7edc839225a6c91d6d0a94cba915}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Euphytica}
+      \field{title}{Joint regression vs AMMI analysis of genotype-environment interactions for cereals in Italy}
+      \field{volume}{94}
+      \field{year}{1997}
+      \field{pages}{53\bibrangedash 62}
+      \range{pages}{10}
+    \endentry
+    \entry{Bayes1763}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8ff440e2297bcb6fa5a90987e117358b}{%
+           family={Bayes},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{fullhash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{authornamehash}{8ff440e2297bcb6fa5a90987e117358b}
+      \strng{authorfullhash}{8ff440e2297bcb6fa5a90987e117358b}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London,}
+      \field{title}{An Essay Towards Solving a Problem in the Doctrine of Chances}
+      \field{volume}{53}
+      \field{year}{1763}
+      \field{pages}{370\bibrangedash 418}
+      \range{pages}{49}
+    \endentry
+    \entry{Becker1988}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b897f929ed07640ad6d59bc4d3fca5e4}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=de8fbd128dfe4f224b226a3a6cd9fa64}{%
+           family={Leon},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c0a1183b5590a017d775850d56974e1}
+      \strng{fullhash}{2e4c45e3519c87e512d08c8598353bc9}
+      \strng{authornamehash}{0c0a1183b5590a017d775850d56974e1}
+      \strng{authorfullhash}{2e4c45e3519c87e512d08c8598353bc9}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Plant Breeding}
+      \field{title}{Stability Analysis in Plant Breeding}
+      \field{volume}{101}
+      \field{year}{1988}
+      \field{pages}{1\bibrangedash 23}
+      \range{pages}{23}
+    \endentry
+    \entry{Bradu1978}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=e6f50bd8cdb7856a01ed4a34a15d82ba}{%
+           family={Bradu},
+           familyi={B\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=69dcf149433f3f6661a67c34f722555a}{%
+           family={Gabriel},
+           familyi={G\bibinitperiod},
+           given={K.\bibnamedelimi Ruben},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2868323b95a20e9101985091a8b1587}
+      \strng{fullhash}{b6125afe9129600aff636e3ddc4ce744}
+      \strng{authornamehash}{a2868323b95a20e9101985091a8b1587}
+      \strng{authorfullhash}{b6125afe9129600aff636e3ddc4ce744}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{title}{The Biplot as a Diagnostic Tool for Models Of Two-Way Tables}
+      \field{volume}{20}
+      \field{year}{1978}
+      \field{pages}{47\bibrangedash 68}
+      \range{pages}{22}
+    \endentry
+    \entry{Burguenoa2008}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=38874f62e9ba9266ec701aada756e9ea}{%
+           family={Burguenoa},
+           familyi={B\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=bb8a6b5c700c8cdf21537c6019fd3e5e}{%
+           family={Crossa},
+           familyi={C\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=f96679a0ff8eecfa5488ffab46efb50a}{%
+           family={Corneliusb},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=fff3a2b0b1638398cd5c6f5afa16a7f4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Rong-Cai},
+           giveni={R\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a93b2b8e151c25bfe124372b39b37b7d}
+      \strng{fullhash}{2fc0dab72eb074952fefad5a6e7445df}
+      \strng{authornamehash}{a93b2b8e151c25bfe124372b39b37b7d}
+      \strng{authorfullhash}{2fc0dab72eb074952fefad5a6e7445df}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Using Factor Analytic Models for Joining Environments and Genotypes without Crossover Genotype $\time$ Environment Interaction}
+      \field{volume}{4}
+      \field{year}{2008}
+      \field{pages}{1291\bibrangedash 1305}
+      \range{pages}{15}
+    \endentry
+    \entry{Campbell2005}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=4cf734f27ec46ba40294d9d34a2c510d}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=037486162cc6a442ba019772fb736064}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{765ccfeb28f821ff2c69e13a90911a97}
+      \strng{fullhash}{e9cbe166144ca00f3889c99437c81f68}
+      \strng{authornamehash}{765ccfeb28f821ff2c69e13a90911a97}
+      \strng{authorfullhash}{e9cbe166144ca00f3889c99437c81f68}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Euphytica}
+      \field{title}{Assessment of genotype $\time$ environment interactions for yield and fiber quality in cotton performance trials}
+      \field{volume}{144}
+      \field{year}{2005}
+      \field{pages}{69\bibrangedash 78}
+      \range{pages}{10}
+    \endentry
+    \entry{Castillo2012}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=2f76bd861962fec0f9d82946c6dd2f66}{%
+           family={Castillo},
+           familyi={C\bibinitperiod},
+           given={Dalma},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=4860c8151c69e808182f0f57ccf04ea9}{%
+           family={Matus},
+           familyi={M\bibinitperiod},
+           given={Iv�n},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=dd18ad0ce229aacbd8ab246ad6b404a7}{%
+           family={Pozo},
+           familyi={P\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           prefix={del},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=8abdb29da119a8bf32803dd895726897}{%
+           family={Madariaga},
+           familyi={M\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=c64e2a8df08d313b0eef9fafca75efcd}{%
+           family={Mellado},
+           familyi={M\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{186c19d0cc4100b2e36d29d029139e3f}
+      \strng{fullhash}{c880f3f780617a98e09612cf12df355e}
+      \strng{authornamehash}{186c19d0cc4100b2e36d29d029139e3f}
+      \strng{authorfullhash}{c880f3f780617a98e09612cf12df355e}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CHILEAN JOURNAL OF AGRICULTURAL RESEARCH}
+      \field{title}{ADAPTABILITY AND GENOTYPE $\times$ ENVIRONMENT INTERACTION OF SPRING WHEAT CULTIVARS IN CHILE USING REGRESSION ANALYSIS, AMMI, AND SREG}
+      \field{volume}{72}
+      \field{year}{2012}
+      \field{pages}{167\bibrangedash 174}
+      \range{pages}{8}
+    \endentry
+    \entry{Crossa1990}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=2,hash=1d41103c0195cd5c27b35a3a6859ffc3}{%
+           family={Crossa},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=8942388006a960d6f118b82c10769f38}{%
+           family={Gauch},
+           familyi={G\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=203cc22e081cdc9d6c757cc26e2c5616}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Richard\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5741b00005d98dbecfefaa17df84c45}
+      \strng{fullhash}{d616b8871a056ca252872324c7751963}
+      \strng{authornamehash}{f5741b00005d98dbecfefaa17df84c45}
+      \strng{authorfullhash}{d616b8871a056ca252872324c7751963}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop S}
+      \field{title}{Additive Main Effects and Multiplicative Interaction Analysis of Two International Maize Cultivar Trials}
+      \field{volume}{30}
+      \field{year}{1990}
+      \field{pages}{493\bibrangedash 500}
+      \range{pages}{8}
+    \endentry
+    \entry{Crossa2011}{article}{}
+      \name{author}{7}{uniquelist=2}{%
+        {{uniquename=2,hash=b297cc64c6085cb25c02024a923a02c2}{%
+           family={Crossa},
+           familyi={C\bibinitperiod},
+           given={Jos�},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=0bdcccfa42840bb01ce4e3d2a8bba6a6}{%
+           family={Perez-Elizalde},
+           familyi={P\bibinithyphendelim E\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ec9348f365fc57df4f62cd56adbfdcaa}{%
+           family={Jarquin},
+           familyi={J\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=dfed9b98d8b853f3761823274dca39ec}{%
+           family={Cotes},
+           familyi={C\bibinitperiod},
+           given={Jos�\bibnamedelima Miguel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=a14ba761816e44d2c2d2ad2e6b01dcfd}{%
+           family={Viele},
+           familyi={V\bibinitperiod},
+           given={Kert},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=87568758fd7b491c47d6c33c892906cf}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Genzhou},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=6831a224e2eee90a293eb57ccf55b10d}{%
+           family={Cornelius},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7e7521f01fb32ee3ac62f8b72be6895}
+      \strng{fullhash}{009e3de50f5b6d4083cc6fb5941fd638}
+      \strng{authornamehash}{d7e7521f01fb32ee3ac62f8b72be6895}
+      \strng{authorfullhash}{009e3de50f5b6d4083cc6fb5941fd638}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CROP SCIENCE}
+      \field{title}{Bayesian Estimation of the Additive Main Eff ects and Multiplicative Interaction Model}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{1458\bibrangedash 1469}
+      \range{pages}{12}
+    \endentry
+    \entry{Crossa2004}{article}{}
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=2,hash=b297cc64c6085cb25c02024a923a02c2}{%
+           family={Crossa},
+           familyi={C\bibinitperiod},
+           given={Jos�},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=fff3a2b0b1638398cd5c6f5afa16a7f4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Rong-Cai},
+           giveni={R\bibinithyphendelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=6831a224e2eee90a293eb57ccf55b10d}{%
+           family={Cornelius},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{49c04228e3306cdb022e198cace6c3ec}
+      \strng{fullhash}{eb0a6497ac1a97646e36b3c8bc21a6f4}
+      \strng{authornamehash}{49c04228e3306cdb022e198cace6c3ec}
+      \strng{authorfullhash}{eb0a6497ac1a97646e36b3c8bc21a6f4}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Agricultural , Biological, and Environmental Statistics}
+      \field{title}{Studying Crossover Genotype $\times$ Environment Interaction Using Linear-Bilinear Models and Mixed Models}
+      \field{volume}{9}
+      \field{year}{2004}
+      \field{pages}{362\bibrangedash 380}
+      \range{pages}{19}
+    \endentry
+    \entry{Denis1996}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=319bca9929053bfa981acb4e1e0096bd}{%
+           family={Denis},
+           familyi={D\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=7e238e71ef644db25d0f45e48b58c706}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{96041464b54c7b879ac78807040676d9}
+      \strng{fullhash}{c8535cadd6c35221f252700072c6d730}
+      \strng{authornamehash}{96041464b54c7b879ac78807040676d9}
+      \strng{authorfullhash}{c8535cadd6c35221f252700072c6d730}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society. Series C (Applied Statistics)}
+      \field{title}{Asymptotic Confidence Regions for Biadditive Models: Interpreting Genotype- Environment Interactions}
+      \field{volume}{45}
+      \field{year}{1996}
+      \field{pages}{479\bibrangedash 493}
+      \range{pages}{15}
+    \endentry
+    \entry{Dias2003}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=43257edb4bbc416838b5176af8b2911c}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Carlos\bibnamedelima T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={dos},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=4e3e4e424274e120e94c11b5727ab0b5}{%
+           family={Krzanowski},
+           familyi={K\bibinitperiod},
+           given={Wojtek\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6cafa6915584eaf43dd814b2de32363}
+      \strng{fullhash}{8b7b36c47c5306c0f04de92378dfd828}
+      \strng{authornamehash}{d6cafa6915584eaf43dd814b2de32363}
+      \strng{authorfullhash}{8b7b36c47c5306c0f04de92378dfd828}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CROP SCIENCE}
+      \field{title}{Model Selection and Cross Validation in Additive Main Effect and Multiplicative Interaction Models}
+      \field{volume}{43}
+      \field{year}{2003}
+      \field{pages}{865\bibrangedash 873}
+      \range{pages}{9}
+    \endentry
+    \entry{Ebdon2002}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=4229cd7fff7bee5fb643341440a3f8ee}{%
+           family={Ebdon},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=8942388006a960d6f118b82c10769f38}{%
+           family={Gauch},
+           familyi={G\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa73ec370fa4dea8678240e2ab2f361c}
+      \strng{fullhash}{d84e1c5e13dc983b46e1ac533ddaf0a8}
+      \strng{authornamehash}{aa73ec370fa4dea8678240e2ab2f361c}
+      \strng{authorfullhash}{d84e1c5e13dc983b46e1ac533ddaf0a8}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Additive Main Effect and Multiplicative Interaction Analysis of National Turfgrass Performance Trials}
+      \field{volume}{42}
+      \field{year}{2002}
+      \field{pages}{497\bibrangedash 506}
+      \range{pages}{10}
+    \endentry
+    \entry{Farshadfar2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5bb208ee7e854fb8a5d47eb55307aa5e}{%
+           family={Farshadfar},
+           familyi={F\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bb208ee7e854fb8a5d47eb55307aa5e}
+      \strng{fullhash}{5bb208ee7e854fb8a5d47eb55307aa5e}
+      \strng{authornamehash}{5bb208ee7e854fb8a5d47eb55307aa5e}
+      \strng{authorfullhash}{5bb208ee7e854fb8a5d47eb55307aa5e}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pak J Biol Scince}
+      \field{title}{Incorporation of AMMI stability value and grain yield in a single non-parametric index (GSI) in bread wheat}
+      \field{volume}{11}
+      \field{year}{2008}
+      \field{pages}{1791\bibrangedash 1796}
+      \range{pages}{6}
+    \endentry
+    \entry{Forkman2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=f32d881fcfa537da7e024d29c5ea7fb0}{%
+           family={Forkman},
+           familyi={F\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=5fb8e6a59f2d20c87801f35150cb065b}{%
+           family={PIEPHO},
+           familyi={P\bibinitperiod},
+           given={H-P.},
+           giveni={H\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e73b4c411249d0676eb0a428d52ed22}
+      \strng{fullhash}{61ef932bab9f01753879e20c799b1153}
+      \strng{authornamehash}{5e73b4c411249d0676eb0a428d52ed22}
+      \strng{authorfullhash}{61ef932bab9f01753879e20c799b1153}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Agricultural Science}
+      \field{title}{Performance of empirical BLUP and Bayesian prediction in small randomized complete block experiments}
+      \field{volume}{151}
+      \field{year}{2013}
+      \field{pages}{381\bibrangedash 395}
+      \range{pages}{15}
+    \endentry
+    \entry{GABRIEL1971}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=2,hash=7c9dab067deb6940ecc0ecb9280a39f2}{%
+           family={Gabriel},
+           familyi={G\bibinitperiod},
+           given={K.\bibnamedelimi R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c9dab067deb6940ecc0ecb9280a39f2}
+      \strng{fullhash}{7c9dab067deb6940ecc0ecb9280a39f2}
+      \strng{authornamehash}{7c9dab067deb6940ecc0ecb9280a39f2}
+      \strng{authorfullhash}{7c9dab067deb6940ecc0ecb9280a39f2}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrika}
+      \field{title}{The biplot graphic display of matrices with application to principal component analysis}
+      \field{volume}{58}
+      \field{year}{1971}
+      \field{pages}{453\bibrangedash 467}
+      \range{pages}{15}
+    \endentry
+    \entry{Gabriel1979}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=2,hash=69dcf149433f3f6661a67c34f722555a}{%
+           family={Gabriel},
+           familyi={G\bibinitperiod},
+           given={K.\bibnamedelimi Ruben},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=68420176e255f893e9ca0fb44e166efb}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Shmuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{66030f2106762ef0cbe9a81281540a63}
+      \strng{fullhash}{409ef28f2211b49a1a4fae588bfcb0bc}
+      \strng{authornamehash}{66030f2106762ef0cbe9a81281540a63}
+      \strng{authorfullhash}{409ef28f2211b49a1a4fae588bfcb0bc}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{title}{Lower Rank Approximation ofMatrices by Least Squares with Any Choice of Weights}
+      \field{volume}{21}
+      \field{year}{1979}
+      \field{pages}{489\bibrangedash 498}
+      \range{pages}{10}
+    \endentry
+    \entry{Gauch2006}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=21c14718ff0d9a6e1dfc2b67f51cfe6f}{%
+           family={Gauch},
+           familyi={G\bibinitperiod},
+           given={Hugh\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{21c14718ff0d9a6e1dfc2b67f51cfe6f}
+      \strng{fullhash}{21c14718ff0d9a6e1dfc2b67f51cfe6f}
+      \strng{authornamehash}{21c14718ff0d9a6e1dfc2b67f51cfe6f}
+      \strng{authorfullhash}{21c14718ff0d9a6e1dfc2b67f51cfe6f}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Statistical Analysis of Yield Trials by AMMI and GGE}
+      \field{volume}{46}
+      \field{year}{2006}
+      \field{pages}{1488\bibrangedash 1500}
+      \range{pages}{13}
+    \endentry
+    \entry{Gauch1988}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=21c14718ff0d9a6e1dfc2b67f51cfe6f}{%
+           family={Gauch},
+           familyi={G\bibinitperiod},
+           given={Hugh\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=203cc22e081cdc9d6c757cc26e2c5616}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Richard\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f0724c4de9f4efd8df63029d19acf09}
+      \strng{fullhash}{b3781a7d8fda08a9400a96bac38c9e14}
+      \strng{authornamehash}{3f0724c4de9f4efd8df63029d19acf09}
+      \strng{authorfullhash}{b3781a7d8fda08a9400a96bac38c9e14}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{THEORETICAL AND APPLIED GENETICS}
+      \field{title}{Predictive and postdictive success of statistical analyses of yield trials}
+      \field{volume}{76}
+      \field{year}{1988}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+    \endentry
+    \entry{Gauch1990}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=21c14718ff0d9a6e1dfc2b67f51cfe6f}{%
+           family={Gauch},
+           familyi={G\bibinitperiod},
+           given={Hugh\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=203cc22e081cdc9d6c757cc26e2c5616}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Richard\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f0724c4de9f4efd8df63029d19acf09}
+      \strng{fullhash}{b3781a7d8fda08a9400a96bac38c9e14}
+      \strng{authornamehash}{3f0724c4de9f4efd8df63029d19acf09}
+      \strng{authorfullhash}{b3781a7d8fda08a9400a96bac38c9e14}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theoretical and Applied Genetics}
+      \field{title}{Imputing Missing Yield Trial Data}
+      \field{volume}{79}
+      \field{year}{1990}
+      \field{pages}{753\bibrangedash 761}
+      \range{pages}{9}
+    \endentry
+    \entry{Gauch1997}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=21c14718ff0d9a6e1dfc2b67f51cfe6f}{%
+           family={Gauch},
+           familyi={G\bibinitperiod},
+           given={Hugh\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=203cc22e081cdc9d6c757cc26e2c5616}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Richard\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f0724c4de9f4efd8df63029d19acf09}
+      \strng{fullhash}{b3781a7d8fda08a9400a96bac38c9e14}
+      \strng{authornamehash}{3f0724c4de9f4efd8df63029d19acf09}
+      \strng{authorfullhash}{b3781a7d8fda08a9400a96bac38c9e14}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Identifying Mega-Environments and Targeting Genotypes}
+      \field{volume}{37}
+      \field{year}{1997}
+      \field{pages}{311\bibrangedash 326}
+      \range{pages}{16}
+    \endentry
+    \entry{Gelman2004}{book}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=40c60e4e0832fcac64a68a5249bfc022}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=1d67b4656f9551333d9785747b11cf8b}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Hal\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=37fe180f849ae0085cba2b45692be375}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CHAPMAN \& HALL/CRC}%
+      }
+      \strng{namehash}{51a0e836b34a738de2e1ef4c9d5c98bd}
+      \strng{fullhash}{9803b2a9660fcf90fa46449e447e2a2f}
+      \strng{authornamehash}{51a0e836b34a738de2e1ef4c9d5c98bd}
+      \strng{authorfullhash}{9803b2a9660fcf90fa46449e447e2a2f}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bayesian Data Analysis}
+      \field{year}{2004}
+    \endentry
+    \entry{Gelman1992}{article}{}
+      \name{author}{2}{uniquelist=2}{%
+        {{uniquename=0,hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=37fe180f849ae0085cba2b45692be375}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a7a04ed69d9a6f3e304b38b631d7b2b}
+      \strng{fullhash}{7a7a04ed69d9a6f3e304b38b631d7b2b}
+      \strng{authornamehash}{7a7a04ed69d9a6f3e304b38b631d7b2b}
+      \strng{authorfullhash}{7a7a04ed69d9a6f3e304b38b631d7b2b}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Statistical Science}
+      \field{title}{Inference from Iterative Simulation Using Multiple Sequences}
+      \field{volume}{4}
+      \field{year}{1992}
+      \field{pages}{457\bibrangedash 472}
+      \range{pages}{16}
+    \endentry
+    \entry{Glickman2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=813ac0453e20cd07a76d90418a157a3c}{%
+           family={Glickman},
+           familyi={G\bibinitperiod},
+           given={Mark\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=0a3540e91b232364c3fa97d7cdf13d43}{%
+           family={Dyk},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ea8e60544342299958d108301a6d568}
+      \strng{fullhash}{5ba90840b732c63d5577b900f07ff855}
+      \strng{authornamehash}{7ea8e60544342299958d108301a6d568}
+      \strng{authorfullhash}{5ba90840b732c63d5577b900f07ff855}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Topics in Biostatistics}
+      \field{title}{Basic Bayesian Methods}
+      \field{volume}{2007}
+      \field{year}{2007}
+      \field{pages}{319\bibrangedash 338}
+      \range{pages}{20}
+    \endentry
+    \entry{GOLLOB1968}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ed3faf1cc907e3f50122a84f584c4bbb}{%
+           family={GOLLOB},
+           familyi={G\bibinitperiod},
+           given={HARRY\bibnamedelima F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed3faf1cc907e3f50122a84f584c4bbb}
+      \strng{fullhash}{ed3faf1cc907e3f50122a84f584c4bbb}
+      \strng{authornamehash}{ed3faf1cc907e3f50122a84f584c4bbb}
+      \strng{authorfullhash}{ed3faf1cc907e3f50122a84f584c4bbb}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychometrika}
+      \field{title}{A Statistical Model Which Combines Features of Factor Analytic and Analysis of Variance}
+      \field{volume}{33}
+      \field{year}{1968}
+      \field{pages}{73\bibrangedash 115}
+      \range{pages}{43}
+    \endentry
+    \entry{Hegemann1976}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=4293556d0daad3a6def4657595147ea2}{%
+           family={Hegemann},
+           familyi={H\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=38aa4f178681c975b68e59dbcfc082f1}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Dallas\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6623dee21fe755e04dd7eeedc4c8b0d1}
+      \strng{fullhash}{edc8576ee118195bc5b360187578bcbe}
+      \strng{authornamehash}{6623dee21fe755e04dd7eeedc4c8b0d1}
+      \strng{authorfullhash}{edc8576ee118195bc5b360187578bcbe}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{title}{On Analyzing Two-Way AoV Data with Interaction}
+      \field{volume}{18}
+      \field{year}{1976}
+      \field{pages}{273\bibrangedash 281}
+      \range{pages}{9}
+    \endentry
+    \entry{Herz1955}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a6aa64b94ca5477ce3097fdacd536fbb}{%
+           family={Herz},
+           familyi={H\bibinitperiod},
+           given={Carl\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6aa64b94ca5477ce3097fdacd536fbb}
+      \strng{fullhash}{a6aa64b94ca5477ce3097fdacd536fbb}
+      \strng{authornamehash}{a6aa64b94ca5477ce3097fdacd536fbb}
+      \strng{authorfullhash}{a6aa64b94ca5477ce3097fdacd536fbb}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematics}
+      \field{title}{Bessel Functions of Matrix Argument}
+      \field{volume}{61}
+      \field{year}{1955}
+      \field{pages}{474\bibrangedash 523}
+      \range{pages}{50}
+    \endentry
+    \entry{Hoff2007}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=cc873c9caa29e095edbcd7ce899be8a7}{%
+           family={Hoff},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima D},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc873c9caa29e095edbcd7ce899be8a7}
+      \strng{fullhash}{cc873c9caa29e095edbcd7ce899be8a7}
+      \strng{authornamehash}{cc873c9caa29e095edbcd7ce899be8a7}
+      \strng{authorfullhash}{cc873c9caa29e095edbcd7ce899be8a7}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{title}{Model Averaging and Dimension Selection for the Singular Value Decomposition}
+      \field{volume}{102}
+      \field{year}{2007}
+      \field{pages}{675\bibrangedash 684}
+      \range{pages}{10}
+    \endentry
+    \entry{James1964}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=475e0330053b18d6aba137b8966be6c6}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={Alan\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{475e0330053b18d6aba137b8966be6c6}
+      \strng{fullhash}{475e0330053b18d6aba137b8966be6c6}
+      \strng{authornamehash}{475e0330053b18d6aba137b8966be6c6}
+      \strng{authorfullhash}{475e0330053b18d6aba137b8966be6c6}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematical Statistics}
+      \field{title}{Distributions of Matrix Variates and Latent Roots Derived From Normal Samples}
+      \field{volume}{35}
+      \field{year}{1964}
+      \field{pages}{475\bibrangedash 501}
+      \range{pages}{27}
+    \endentry
+    \entry{Jarquin2011}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,hash=ec9348f365fc57df4f62cd56adbfdcaa}{%
+           family={Jarquin},
+           familyi={J\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=bb8a6b5c700c8cdf21537c6019fd3e5e}{%
+           family={Crossa},
+           familyi={C\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=27a5ebc73063920a912361e9870de4e9}{%
+           family={PEREZ-ELIZALDE},
+           familyi={P\bibinithyphendelim E\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=e4dab107a63272726408af8230d28f63}{%
+           family={Cotes},
+           familyi={C\bibinitperiod},
+           given={Jose\bibnamedelima Miguel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=a14ba761816e44d2c2d2ad2e6b01dcfd}{%
+           family={Viele},
+           familyi={V\bibinitperiod},
+           given={Kert},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=87568758fd7b491c47d6c33c892906cf}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Genzhou},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=6831a224e2eee90a293eb57ccf55b10d}{%
+           family={Cornelius},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{126c739cd681ea5de7a01256992dae01}
+      \strng{fullhash}{95f938cf516c019c8551d8ea2821def4}
+      \strng{authornamehash}{126c739cd681ea5de7a01256992dae01}
+      \strng{authorfullhash}{95f938cf516c019c8551d8ea2821def4}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Bayesian estimation of the additive main effects and multiplicative interaction model}
+      \field{volume}{51}
+      \field{year}{2011}
+      \field{pages}{1458\bibrangedash 1469}
+      \range{pages}{12}
+    \endentry
+    \entry{Johansson2003}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=7658b1f76da3f3b8c9de45ecb5ef1825}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=6cd05989d40f3248c2c845bbf335167f}{%
+           family={Prieto-Linde},
+           familyi={P\bibinithyphendelim L\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=586aa6804b47124e27a50186b44c6662}{%
+           family={Svensson},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=5475a7b0230ccfdde57e55a5599c7cfa}{%
+           family={Jonsson},
+           familyi={J\bibinitperiod},
+           given={J.\bibnamedelimi O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9d380c50b695375284851f2de911da5}
+      \strng{fullhash}{c217758503c147ac5aaab45f22e1b2f7}
+      \strng{authornamehash}{f9d380c50b695375284851f2de911da5}
+      \strng{authorfullhash}{c217758503c147ac5aaab45f22e1b2f7}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Agricultural Science}
+      \field{title}{Influences of cultivar, cultivation year and fertilizer rate on amount of protein groups and amount and size distribution of mono and polymeric proteins in wheat.}
+      \field{volume}{140}
+      \field{year}{2003}
+      \field{pages}{275\bibrangedash 284}
+      \range{pages}{10}
+    \endentry
+    \entry{JOSSE2014}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=4964ce196b035ce34510560d39723522}{%
+           family={JOSSE},
+           familyi={J\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=8c401e7b6301f3751e7da87a89cced6c}{%
+           family={EEUWIJK},
+           familyi={E\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{uniquename=0,hash=8b9df512c4418ede824b6b10cd9c1230}{%
+           family={PIEPHO},
+           familyi={P\bibinitperiod},
+           given={Hans-Peter},
+           giveni={H\bibinithyphendelim P\bibinitperiod}}}%
+        {{uniquename=0,hash=9e1a85595a326dcde8dd6465ba8ef080}{%
+           family={DENIS},
+           familyi={D\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{640b4e359a9fe00d37f36b73300f2f23}
+      \strng{fullhash}{ffae038a360d8600895bdcea0a14ee3e}
+      \strng{authornamehash}{640b4e359a9fe00d37f36b73300f2f23}
+      \strng{authorfullhash}{ffae038a360d8600895bdcea0a14ee3e}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Agricultural, Biological, and Environmental Statistics}
+      \field{title}{Another Look at Bayesian Analysis of AMMI Models for Genotype-Environment Data}
+      \field{volume}{19}
+      \field{year}{2014}
+      \field{pages}{240\bibrangedash 257}
+      \range{pages}{18}
+    \endentry
+    \entry{Josse2011}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=8939f2a4c4e9861e34f1590f4e18d592}{%
+           family={Josse},
+           familyi={J\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=f7a260bcc3bbc7f7a2f24c54eba817e1}{%
+           family={Pages},
+           familyi={P\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=be57a2dafe3c739ad1bd15d0ded21752}{%
+           family={Husson},
+           familyi={H\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2bd90843f036ef4e94140674b1cf3902}
+      \strng{fullhash}{dc463eeeae97279c51f100ba75843e4c}
+      \strng{authornamehash}{2bd90843f036ef4e94140674b1cf3902}
+      \strng{authorfullhash}{dc463eeeae97279c51f100ba75843e4c}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Data Analysis and Classification}
+      \field{title}{Multiple Imputation in PCA}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{pages}{231\bibrangedash 246}
+      \range{pages}{16}
+    \endentry
+    \entry{KAYA2002}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=a4929ff79c436e6e8adf87c4c6094b63}{%
+           family={KAYA},
+           familyi={K\bibinitperiod},
+           given={Yuksel},
+           giveni={Y\bibinitperiod}}}%
+        {{uniquename=0,hash=dd774b38a7d475728c328701c37d0af4}{%
+           family={PALTA},
+           familyi={P\bibinitperiod},
+           given={Cetin},
+           giveni={C\bibinitperiod}}}%
+        {{uniquename=0,hash=2e07c07d686bdd3ed7d2c0db211d085b}{%
+           family={TANER},
+           familyi={T\bibinitperiod},
+           given={Seyfi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5eff1770d6ab1849eaf41c7e459c6ec}
+      \strng{fullhash}{f0fb112c40a5591a9c0e619ab63f8e58}
+      \strng{authornamehash}{d5eff1770d6ab1849eaf41c7e459c6ec}
+      \strng{authorfullhash}{f0fb112c40a5591a9c0e619ab63f8e58}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Turk J Agric For}
+      \field{title}{Additive Main Effects and Multiplicative Interactions Analysis of Yield Performances in Bread Wheat Genotypes across Environments}
+      \field{volume}{26}
+      \field{year}{2002}
+      \field{pages}{275\bibrangedash 279}
+      \range{pages}{5}
+    \endentry
+    \entry{Kempton1984}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6f55949205b8e77c90571b4c27dd4607}{%
+           family={Kempton},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f55949205b8e77c90571b4c27dd4607}
+      \strng{fullhash}{6f55949205b8e77c90571b4c27dd4607}
+      \strng{authornamehash}{6f55949205b8e77c90571b4c27dd4607}
+      \strng{authorfullhash}{6f55949205b8e77c90571b4c27dd4607}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Agricultural Science}
+      \field{title}{The use of biplots in interpreting variety by environment interactions}
+      \field{volume}{103}
+      \field{year}{1984}
+      \field{pages}{123\bibrangedash 135}
+      \range{pages}{13}
+    \endentry
+    \entry{Khatri1977}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=3107be93827c1c391e8bc5f34c49356e}{%
+           family={Khatri},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{uniquename=0,hash=fc319a2558557fbc08e520af32ab18df}{%
+           family={Mardia},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi V.},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f3c8c589ca9e8c15513aa9e559af88e}
+      \strng{fullhash}{fd66b23cc1ae22f5071b631d979f65da}
+      \strng{authornamehash}{8f3c8c589ca9e8c15513aa9e559af88e}
+      \strng{authorfullhash}{fd66b23cc1ae22f5071b631d979f65da}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society. Series B (Methodological)}
+      \field{title}{The von Mises�Fisher Matrix Distribution in Orientation Statistics}
+      \field{volume}{39}
+      \field{year}{1977}
+      \field{pages}{95\bibrangedash 106}
+      \range{pages}{12}
+    \endentry
+    \entry{Kiers1997}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=abacec4ea56159e2dff8de0ce37bd291}{%
+           family={Kiers},
+           familyi={K\bibinitperiod},
+           given={Henk\bibnamedelimb A.\bibnamedelimi L.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{abacec4ea56159e2dff8de0ce37bd291}
+      \strng{fullhash}{abacec4ea56159e2dff8de0ce37bd291}
+      \strng{authornamehash}{abacec4ea56159e2dff8de0ce37bd291}
+      \strng{authorfullhash}{abacec4ea56159e2dff8de0ce37bd291}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychometrika}
+      \field{title}{Weighted Least Squares Fitting Using Ordinary Least Squares Algorithms}
+      \field{volume}{62}
+      \field{year}{1997}
+      \field{pages}{251\bibrangedash 266}
+      \range{pages}{16}
+    \endentry
+    \entry{Krzanowski1987}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4e3e4e424274e120e94c11b5727ab0b5}{%
+           family={Krzanowski},
+           familyi={K\bibinitperiod},
+           given={Wojtek\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e3e4e424274e120e94c11b5727ab0b5}
+      \strng{fullhash}{4e3e4e424274e120e94c11b5727ab0b5}
+      \strng{authornamehash}{4e3e4e424274e120e94c11b5727ab0b5}
+      \strng{authorfullhash}{4e3e4e424274e120e94c11b5727ab0b5}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{title}{Some exact percentage points of a statistic useful in analysis of variance and principal component analysis}
+      \field{volume}{21}
+      \field{year}{1987}
+      \field{pages}{261\bibrangedash 263}
+      \range{pages}{3}
+    \endentry
+    \entry{Lett2007}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8e2bd6a746a53b3299cfd5b1f852c05e}{%
+           family={Letta},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e2bd6a746a53b3299cfd5b1f852c05e}
+      \strng{fullhash}{8e2bd6a746a53b3299cfd5b1f852c05e}
+      \strng{authornamehash}{8e2bd6a746a53b3299cfd5b1f852c05e}
+      \strng{authorfullhash}{8e2bd6a746a53b3299cfd5b1f852c05e}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Crop Science Conference Proceeding}
+      \field{title}{Genotype-environment interactions and correlation among some stability parameters of yield in durum wheat (Triticum durum Desf) genotypes grown in South East Ethiopia}
+      \field{volume}{8}
+      \field{year}{2007}
+      \field{pages}{693\bibrangedash 698}
+      \range{pages}{6}
+    \endentry
+    \entry{Magari1993}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0237efd9a946868a17bd5e4f09453e62}{%
+           family={Magari},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=bea8f428134780f70c39e70272ca0448}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Manjit\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{89440c5a302049d0af404ac63dcfdb2c}
+      \strng{fullhash}{0b4c9d6b74ff323366ddd1985341471c}
+      \strng{authornamehash}{89440c5a302049d0af404ac63dcfdb2c}
+      \strng{authorfullhash}{0b4c9d6b74ff323366ddd1985341471c}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Euphytica}
+      \field{title}{Genotype selection via a new yield-stability statistic in maize yield trials}
+      \field{volume}{70}
+      \field{year}{1993}
+      \field{pages}{105\bibrangedash 111}
+      \range{pages}{7}
+    \endentry
+    \entry{Mandel1971}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7537778cffa33800d7f56f47ad748070}{%
+           family={Mandel},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7537778cffa33800d7f56f47ad748070}
+      \strng{fullhash}{7537778cffa33800d7f56f47ad748070}
+      \strng{authornamehash}{7537778cffa33800d7f56f47ad748070}
+      \strng{authorfullhash}{7537778cffa33800d7f56f47ad748070}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{title}{A New Analysis of Variance Model for Non-Additive Data}
+      \field{volume}{13}
+      \field{year}{1971}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{Milliken1989}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ad1c45484eafb818b28cfe6034737011}{%
+           family={Milliken},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=38aa4f178681c975b68e59dbcfc082f1}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Dallas\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York: Van Nostrand-Reinhold.}%
+      }
+      \strng{namehash}{4d8e12f03c76d4737111e215ba84d045}
+      \strng{fullhash}{a1777582bd7ad9298f4d5ab4f86304f9}
+      \strng{authornamehash}{4d8e12f03c76d4737111e215ba84d045}
+      \strng{authorfullhash}{a1777582bd7ad9298f4d5ab4f86304f9}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analysis of Messy Data, Volume II: Nonreplicated Experiments}
+      \field{year}{1989}
+    \endentry
+    \entry{Mohamed2013}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=f3c08d7951446c793e36ba0b56c11574}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Naheif\bibnamedelimb E.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=3ee30b02f81218156834f3b31f5d723d}{%
+           family={Said},
+           familyi={S\bibinitperiod},
+           given={Alaa\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=424351710cf74c3499f0e42e6ffdf1e2}{%
+           family={Amein},
+           familyi={A\bibinitperiod},
+           given={Karam\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc0527c4383291839072f85a40a02a74}
+      \strng{fullhash}{ee203f7cfe3cfbffaea5b92ac04f0740}
+      \strng{authornamehash}{cc0527c4383291839072f85a40a02a74}
+      \strng{authorfullhash}{ee203f7cfe3cfbffaea5b92ac04f0740}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Journal of Agricultural Research}
+      \field{title}{Additive main effects and multiplicative interaction (AMMI) and GGE-biplot analysis of genotype $\times$ environment interactions for grain yield in bread wheat (Triticum aestivum L.)}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{5197\bibrangedash 5203}
+      \range{pages}{7}
+    \endentry
+    \entry{Negash2013}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=29592dfc03ad8f21bbb73e7492217c34}{%
+           family={Negash},
+           familyi={N\bibinitperiod},
+           given={Asnake\bibnamedelima Worku},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=16b6887fc6c0e59df27cfb7bf4d763b9}{%
+           family={Mwambi},
+           familyi={M\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=98097424c52195a2768a8960f54a18ef}{%
+           family={Zewotir},
+           familyi={Z\bibinitperiod},
+           given={Temesgen},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=623387b3735dca167bf146485d6f0329}{%
+           family={Taye},
+           familyi={T\bibinitperiod},
+           given={Girma},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{c16a87f52123d7176bde881c10eb2bb1}
+      \strng{fullhash}{6b5e65b8a30a072efe44ca2d21535855}
+      \strng{authornamehash}{c16a87f52123d7176bde881c10eb2bb1}
+      \strng{authorfullhash}{6b5e65b8a30a072efe44ca2d21535855}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Journal of Agricultural Research}
+      \field{title}{Additive main effects and multiplicative interactions model (AMMI) and genotype main effect and genotype by environment interaction (GGE) biplot analysis of multi-environmental wheat variety trials}
+      \field{volume}{8}
+      \field{year}{2013}
+      \field{pages}{1033\bibrangedash 1040}
+      \range{pages}{8}
+    \endentry
+    \entry{Nounou2002}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=57d561f95ecfdf540d75a8f476773839}{%
+           family={Nounou},
+           familyi={N\bibinitperiod},
+           given={Mohamed\bibnamedelima N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=3133db1e0544e4cb6b23e046128c4f5a}{%
+           family={Bakshi},
+           familyi={B\bibinitperiod},
+           given={Bhavik\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{uniquename=0,hash=369f3c8c01d3f7e36e2f2ce30f769c2f}{%
+           family={Goel},
+           familyi={G\bibinitperiod},
+           given={Prem\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=793dfea82e732dc974bf33f90b3a3b28}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Xiaotong},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{15869aae2439d1f9f7d33172b5543004}
+      \strng{fullhash}{c9caaeacaaf85363531f3c7fbc86721e}
+      \strng{authornamehash}{15869aae2439d1f9f7d33172b5543004}
+      \strng{authorfullhash}{c9caaeacaaf85363531f3c7fbc86721e}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of chemometrics}
+      \field{title}{Bayesian principal component analysis}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{pages}{576\bibrangedash 595}
+      \range{pages}{20}
+    \endentry
+    \entry{PEREZ-ELIZALDE2011}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=27a5ebc73063920a912361e9870de4e9}{%
+           family={PEREZ-ELIZALDE},
+           familyi={P\bibinithyphendelim E\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=f2a2fbf93b725ce5d6f2df889913efa8}{%
+           family={JARQUIN},
+           familyi={J\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=654874819b83c7d24dc79c5a459a942d}{%
+           family={CROSSA},
+           familyi={C\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3832997f11b34be7fe355a5d83d8908e}
+      \strng{fullhash}{7f6e525132e3fd04d4bc1754369b2412}
+      \strng{authornamehash}{3832997f11b34be7fe355a5d83d8908e}
+      \strng{authorfullhash}{7f6e525132e3fd04d4bc1754369b2412}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Agricultural, Biological, and Environmental Statistics}
+      \field{title}{A General Bayesian Estimation Method of Linear�Bilinear Models Applied to Plant Breeding TrialsWith Genotype $\times$ Environment Interaction}
+      \field{volume}{17}
+      \field{year}{2011}
+      \field{pages}{15\bibrangedash 37}
+      \range{pages}{23}
+    \endentry
+    \entry{Peterson1992}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=d9741c3e21f7005b5f9afa9f21b72a2a}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=58d3dcc452dabeee02210b1d1c9f79e3}{%
+           family={Graybosch},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=acd2310a61e1281fc751df5e5110fa4a}{%
+           family={Baenziger},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{uniquename=0,hash=48a300a8e41a3d21f22c6be3d69a47b4}{%
+           family={Grombacher},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{70ce80e16da6b7b4843f87a7f63b4163}
+      \strng{fullhash}{7dc37391cd689f21de827e025550f698}
+      \strng{authornamehash}{70ce80e16da6b7b4843f87a7f63b4163}
+      \strng{authorfullhash}{7dc37391cd689f21de827e025550f698}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Genotype and Environment Effects on Quality Characteristics of Hard Red Winter Wheat}
+      \field{volume}{32}
+      \field{year}{1992}
+      \field{pages}{98\bibrangedash 103}
+      \range{pages}{6}
+    \endentry
+    \entry{Purchase1997}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a07cd614fe0533616c2247040c3b05dc}{%
+           family={Purchase},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima Luscombe},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Thesis, Department of Agronomy, Faculty of Agriculture of the University of the Free State, Bloemfontein, South Africa}%
+      }
+      \strng{namehash}{a07cd614fe0533616c2247040c3b05dc}
+      \strng{fullhash}{a07cd614fe0533616c2247040c3b05dc}
+      \strng{authornamehash}{a07cd614fe0533616c2247040c3b05dc}
+      \strng{authorfullhash}{a07cd614fe0533616c2247040c3b05dc}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Parametric analysis to describe genotyperenvironment interaction and yield stability in winter wheat}
+      \field{type}{phdthesis}
+      \field{year}{1997}
+    \endentry
+    \entry{R2015}{manual}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6f22380d51bae56380024b3782512a4b}{%
+           family={R},
+           familyi={R\bibinitperiod},
+           given={Core\bibnamedelima Team},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{6f22380d51bae56380024b3782512a4b}
+      \strng{fullhash}{6f22380d51bae56380024b3782512a4b}
+      \strng{authornamehash}{6f22380d51bae56380024b3782512a4b}
+      \strng{authorfullhash}{6f22380d51bae56380024b3782512a4b}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{{ISBN} 3-900051-07-0}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://www.R-project.org
+      \endverb
+    \endentry
+    \entry{Rad2013}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=009b49e8de9dadb7d28113475aa264ea}{%
+           family={Rad},
+           familyi={R\bibinitperiod},
+           given={M.R.\bibnamedelimi Naroui},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=7b95cb9d8047447327235de2be7078c6}{%
+           family={Kadir},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi Abdul},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=a54b8fb73edf67cd36a8e14e26954b1f}{%
+           family={Rafii},
+           familyi={R\bibinitperiod},
+           given={M.Y.},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=19a36189ccf0a72c5b816db3583bdf57}{%
+           family={Jaafar},
+           familyi={J\bibinitperiod},
+           given={Hawa\bibnamedelima Z.E.},
+           giveni={H\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{uniquename=0,hash=6e961d1dd80e7984a9cf7c987eaaa0b8}{%
+           family={M.R.Naghavi},
+           familyi={M\bibinitperiod}}}%
+        {{uniquename=0,hash=a3023e33bd76e6d58f269e0fc17f3602}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={Farzaneh},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{38f86a67e7bc3dc1a407f00282d485ac}
+      \strng{fullhash}{ba307e9d560542b795b42591bf9f5239}
+      \strng{authornamehash}{38f86a67e7bc3dc1a407f00282d485ac}
+      \strng{authorfullhash}{ba307e9d560542b795b42591bf9f5239}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Australasian Journal of Crop Science}
+      \field{title}{Genotype $\times$ environment interaction by AMMI and GGE biplot analysis in three consecutive generations of wheat under normal and drought stress conditions}
+      \field{volume}{7}
+      \field{year}{2013}
+      \field{pages}{956\bibrangedash 961}
+      \range{pages}{6}
+    \endentry
+    \entry{Raftery1995}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=53596fce608f49350a0fbe346aeddbe1}{%
+           family={Raftery},
+           familyi={R\bibinitperiod},
+           given={Adrian\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=540aab1ce54b110e35114f32b8874cf7}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall}%
+      }
+      \strng{namehash}{f86d59f50da092beb18326edd24d266a}
+      \strng{fullhash}{a2bdfc828f5cfe9d251b58c6b0702612}
+      \strng{authornamehash}{f86d59f50da092beb18326edd24d266a}
+      \strng{authorfullhash}{a2bdfc828f5cfe9d251b58c6b0702612}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{In Practical Markov Chain Monte Carlo (W.R. Gilks, D.J. Spiegelhalter}
+      \field{title}{The Number of Iterations, Convergence Diagnostics and Generic Metropolis Algorithms}
+      \field{year}{1995}
+      \field{pages}{115\bibrangedash 130}
+      \range{pages}{16}
+    \endentry
+    \entry{Rasul2007}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b3b62f5a5153f3b1741946dc19e45b86}{%
+           family={Rasul},
+           familyi={R\bibinitperiod},
+           given={Sajid},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=ae7888d7698245ee11a39ae257a0b55e}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi Inayat},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{uniquename=0,hash=6befea69be12aa899949d8acf4abd2d9}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi Aqil},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ff2e7411c2c74eb92710d9c52dcf972}
+      \strng{fullhash}{7267403d569bda8af17a55799baf9935}
+      \strng{authornamehash}{4ff2e7411c2c74eb92710d9c52dcf972}
+      \strng{authorfullhash}{7267403d569bda8af17a55799baf9935}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pak. J. Agri. Sci.}
+      \field{title}{COMPARISON OF SAFETY- FIRST RULE AND CLUSTER ANALYSIS FOR EVALUATING WHEAT GENOTYPES WITH SIGNIFICANT GENOTYPEENVIRONMENT INTERACTION}
+      \field{volume}{44}
+      \field{year}{2007}
+      \field{pages}{4}
+      \range{pages}{1}
+    \endentry
+    \entry{Rodrigues2015}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=76c1c21f294587a25c564edf350883ec}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Paulo\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=eb4de83b9d32d09275235e52240e7306}{%
+           family={Monteiro},
+           familyi={M\bibinitperiod},
+           given={Andreia},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=c58b79c0ade8a3f4fe31e754ea3b7137}{%
+           family={Lourenco},
+           familyi={L\bibinitperiod},
+           given={Vanda\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{da7ffe2426d7d2f979e25190d2f419b2}
+      \strng{fullhash}{11458df1b525019dfa91715a80cfb034}
+      \strng{authornamehash}{da7ffe2426d7d2f979e25190d2f419b2}
+      \strng{authorfullhash}{11458df1b525019dfa91715a80cfb034}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioinformatics}
+      \field{title}{A Robust AMMI model for the analysis of genotype-by-environment data}
+      \field{year}{2015}
+    \endentry
+    \entry{Sadeghi2011}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=2f901943786963587c00f6d74ba2b6ab}{%
+           family={Sadeghi},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=ef441746cef8ad7889d67802f85a4db0}{%
+           family={Samizadeh},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=0fe85d24f8a3ebb1a746249cf1dcb6d7}{%
+           family={Amiri},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=39f66efe675b190d25b83a47b1943780}{%
+           family={Ashouri},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6867a7765cbd8d79cca0e396bf0e1385}
+      \strng{fullhash}{408051c6b6d8d5740dccf57bbc671f74}
+      \strng{authornamehash}{6867a7765cbd8d79cca0e396bf0e1385}
+      \strng{authorfullhash}{408051c6b6d8d5740dccf57bbc671f74}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Journal of Biotechnology}
+      \field{title}{Additive main effects and multiplicative interactions (AMMI) analysis of dry leaf yield in tobacco hybrids across environments}
+      \field{volume}{10}
+      \field{year}{2011}
+      \field{pages}{4358\bibrangedash 4364}
+      \range{pages}{7}
+    \endentry
+    \entry{Schulthessa2013}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=e1104e74a0f471d657c5ee897ebc8af4}{%
+           family={Schulthessa},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=f6197d2c73f2ebd7172ab5d61a6b20bf}{%
+           family={Matusb},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{uniquename=0,hash=0c8fbd96c3aeb7253cf9304de9236ca3}{%
+           family={Schwembera},
+           familyi={S\bibinitperiod},
+           given={A.R.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{05fc2942e742cecbb228ea6830858b71}
+      \strng{fullhash}{6b52ebc1eef8aa61ce801a3a6875fa85}
+      \strng{authornamehash}{05fc2942e742cecbb228ea6830858b71}
+      \strng{authorfullhash}{6b52ebc1eef8aa61ce801a3a6875fa85}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Field Crops Research}
+      \field{title}{Genotypic and environmental factors and their interactions determine semolina color of elite genotypes of durum wheat (Triticum turgidum L. var. durum) grown in different environments of Chile}
+      \field{volume}{149}
+      \field{year}{2013}
+      \field{pages}{234\bibrangedash 244}
+      \range{pages}{11}
+    \endentry
+    \entry{Shafii1998}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=8a8d755e653d21917d301081accd395a}{%
+           family={Shafii},
+           familyi={S\bibinitperiod},
+           given={Bahman},
+           giveni={B\bibinitperiod}}}%
+        {{uniquename=0,hash=8a0b80cdb31cbe921b4409cadda23b53}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e9b9f36dee5a4d6f4d2d38b82aa23b9}
+      \strng{fullhash}{ceaa22c3eb8d0d458e9715f84ed1954d}
+      \strng{authornamehash}{4e9b9f36dee5a4d6f4d2d38b82aa23b9}
+      \strng{authorfullhash}{ceaa22c3eb8d0d458e9715f84ed1954d}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Agricultural, Biological, and Environmental Statistics}
+      \field{title}{Analysis of Genotype-by-Environment Interaction Using the Additive Main Effects andMultiplicative Interaction Model and Stability Estimates}
+      \field{volume}{3}
+      \field{year}{1998}
+      \field{pages}{335\bibrangedash 345}
+      \range{pages}{11}
+    \endentry
+    \entry{Silva2015}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=b7829e21a9ee60ec3dd396131a08d038}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Carlos\bibnamedelima Pereira},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=ee3c25bc2fefe0ead28fd79f2c27229d}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Luciano\bibnamedelima Antonio},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=30883307418706fbef4132a9e4e4b50b}{%
+           family={Nuvunga},
+           familyi={N\bibinitperiod},
+           given={Joel\bibnamedelima Jorge},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=18e8966449f7f20bede2b3fdba5a1b7b}{%
+           family={Pamplona},
+           familyi={P\bibinitperiod},
+           given={Andrezza\bibnamedelimb Kellen\bibnamedelima Alves},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=0fabcf278938c0f605fb512e4d16e7d4}{%
+           family={Balestre},
+           familyi={B\bibinitperiod},
+           given={Marcio},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{34eb7128ba285585e9da57b39e63c8c7}
+      \strng{fullhash}{37a08e8e31bf07f53013202a78ef3c84}
+      \strng{authornamehash}{34eb7128ba285585e9da57b39e63c8c7}
+      \strng{authorfullhash}{37a08e8e31bf07f53013202a78ef3c84}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{title}{A Bayesian Shrinkage Approach for AMMI Models}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+    \endentry
+    \entry{Simdl2007}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1cae75108a6050d20325947237576bdf}{%
+           family={Simdl},
+           familyi={S\bibinitperiod},
+           given={Valcave},
+           giveni={V\bibinitperiod}}}%
+        {{uniquename=0,hash=646dc8f4ea2de206cc42aff6149a6d7b}{%
+           family={Quinnb},
+           familyi={Q\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b954bc12caccbd7af5e72325eb0e607}
+      \strng{fullhash}{fac0df5dba01f5a95cea9d0edce69ceb}
+      \strng{authornamehash}{0b954bc12caccbd7af5e72325eb0e607}
+      \strng{authorfullhash}{fac0df5dba01f5a95cea9d0edce69ceb}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Statistics \& Data Analysis}
+      \field{title}{On Bayesian principal component analysis}
+      \field{volume}{51}
+      \field{year}{2007}
+      \field{pages}{4101\bibrangedash 4123}
+      \range{pages}{23}
+    \endentry
+    \entry{Simmonds1962}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7011e2be5c9c65f9c08790ede740ad5b}{%
+           family={Simmonds},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{7011e2be5c9c65f9c08790ede740ad5b}
+      \strng{fullhash}{7011e2be5c9c65f9c08790ede740ad5b}
+      \strng{authornamehash}{7011e2be5c9c65f9c08790ede740ad5b}
+      \strng{authorfullhash}{7011e2be5c9c65f9c08790ede740ad5b}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Reviews}
+      \field{title}{VARIABILITY IN CROP PLANTS, ITS USE AND CONSERVATION}
+      \field{volume}{37}
+      \field{year}{1962}
+      \field{pages}{422\bibrangedash 465}
+      \range{pages}{44}
+    \endentry
+    \entry{Tolessa2013}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=1f6248a9615283fee95ae39332571875}{%
+           family={Tolessa},
+           familyi={T\bibinitperiod},
+           given={Tamene\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{uniquename=0,hash=d699526381421ce732a01a9f673790d2}{%
+           family={Keneni},
+           familyi={K\bibinitperiod},
+           given={Gamechu},
+           giveni={G\bibinitperiod}}}%
+        {{uniquename=0,hash=d9be05c1548a0ffcdadecb4b0774f617}{%
+           family={Sefera},
+           familyi={S\bibinitperiod},
+           given={Tadesa},
+           giveni={T\bibinitperiod}}}%
+        {{uniquename=0,hash=d7266271b225dde89ce86d1eec5e94bb}{%
+           family={Jarso},
+           familyi={J\bibinitperiod},
+           given={Mussa},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=11570a25aa2ad293a431ec4c419201ad}{%
+           family={Bekele},
+           familyi={B\bibinitperiod},
+           given={Yeneneh},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{b249c24e738772dd9902ba0156242200}
+      \strng{fullhash}{2a31e27732304f861d420d9883622a71}
+      \strng{authornamehash}{b249c24e738772dd9902ba0156242200}
+      \strng{authorfullhash}{2a31e27732304f861d420d9883622a71}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of plant breeding}
+      \field{title}{GenoGeno $\tim$Ȇnvironment InteraInter and PerformPerf stability for Grain Yield in Field Pea Genotypes}
+      \field{volume}{7}
+      \field{year}{2013}
+      \field{pages}{116\bibrangedash 123}
+      \range{pages}{8}
+    \endentry
+    \entry{Vargas1999}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=c19f19fbe921383f2ba199db8ecf1e11}{%
+           family={Vargas},
+           familyi={V\bibinitperiod},
+           given={Mateo},
+           giveni={M\bibinitperiod}}}%
+        {{uniquename=0,hash=b297cc64c6085cb25c02024a923a02c2}{%
+           family={Crossa},
+           familyi={C\bibinitperiod},
+           given={Jos�},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=ba58fbf6bc6e265e2a9675e00b5fdd1d}{%
+           family={Eeuwijk},
+           familyi={E\bibinitperiod},
+           given={Fred\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{uniquename=0,hash=47c8ffec594d1e1a4b0db3b25c616481}{%
+           family={Ram�rez},
+           familyi={R\bibinitperiod},
+           given={Martha\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{uniquename=0,hash=09e2c3bc093cd0bf77f4fa9f84348e3f}{%
+           family={Sayre},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1348461b1600ce997c417904d518c78c}
+      \strng{fullhash}{7a615086cfd803f3a1ae76c231fcec87}
+      \strng{authornamehash}{1348461b1600ce997c417904d518c78c}
+      \strng{authorfullhash}{7a615086cfd803f3a1ae76c231fcec87}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Using Partial Least Squares Regression, Factorial Regression, and AMMI Models for Interpreting Genotype $\times$ Environment Interaction}
+      \field{volume}{39}
+      \field{year}{1999}
+      \field{pages}{955\bibrangedash 967}
+      \range{pages}{13}
+    \endentry
+    \entry{Viele2000}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=a14ba761816e44d2c2d2ad2e6b01dcfd}{%
+           family={Viele},
+           familyi={V\bibinitperiod},
+           given={Kert},
+           giveni={K\bibinitperiod}}}%
+        {{uniquename=0,hash=4eee1f4e669b8a7e21d00b11d77bf9d9}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1575d5f80fb00ff1dc1c774b375bb7e8}
+      \strng{fullhash}{dacc900a5040161ea7e09a788d6b72ab}
+      \strng{authornamehash}{1575d5f80fb00ff1dc1c774b375bb7e8}
+      \strng{authorfullhash}{dacc900a5040161ea7e09a788d6b72ab}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Planning and Inference}
+      \field{title}{Parsimonious estimation of multiplicative interaction in analysis of variance using Kullback-Leibler Information}
+      \field{volume}{84}
+      \field{year}{2000}
+      \field{pages}{201\bibrangedash 219}
+      \range{pages}{19}
+    \endentry
+    \entry{Yan2000}{article}{}
+      \name{author}{4}{uniquelist=2}{%
+        {{uniquename=0,hash=25b2579278f2ee9a8fcf02df61b8aa91}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Weikai},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=139cc8b6840aa89c396b7e9b717664cc}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={L.A.},
+           giveni={L\bibinitperiod}}}%
+        {{uniquename=0,hash=234fa388110784b33fb05cd53bf46ff3}{%
+           family={Sheng},
+           familyi={S\bibinitperiod},
+           given={Qinglai},
+           giveni={Q\bibinitperiod}}}%
+        {{uniquename=0,hash=11b11e0fc93f4dbe79f9f3f698e07f99}{%
+           family={Szlavnics},
+           familyi={S\bibinitperiod},
+           given={Zorka},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{14afe493e0d070ee5a148b3c4e639617}
+      \strng{fullhash}{876784a302f94ac7feadcb5e925a272e}
+      \strng{authornamehash}{14afe493e0d070ee5a148b3c4e639617}
+      \strng{authorfullhash}{876784a302f94ac7feadcb5e925a272e}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop}
+      \field{title}{Cultivar Evaluation and Mega-Environment Investigation Based on the GGE Biplot}
+      \field{volume}{40}
+      \field{year}{2000}
+      \field{pages}{597\bibrangedash 605}
+      \range{pages}{9}
+    \endentry
+    \entry{Yan2005}{article}{}
+      \name{author}{2}{uniquelist=2}{%
+        {{uniquename=0,hash=25b2579278f2ee9a8fcf02df61b8aa91}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Weikai},
+           giveni={W\bibinitperiod}}}%
+        {{uniquename=0,hash=408b07d835a038c8abe7eec1e05535d1}{%
+           family={Tinker},
+           familyi={T\bibinitperiod},
+           given={Nicholas\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2758ea0c9b152dedc7c19db19e1cc80}
+      \strng{fullhash}{c2758ea0c9b152dedc7c19db19e1cc80}
+      \strng{authornamehash}{c2758ea0c9b152dedc7c19db19e1cc80}
+      \strng{authorfullhash}{c2758ea0c9b152dedc7c19db19e1cc80}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{An Integrated Biplot Analysis System for Displaying, Interpreting, and Exploring Genotype $\times$$Environment Interaction}
+      \field{volume}{45}
+      \field{year}{2005}
+      \field{pages}{1004\bibrangedash 1016}
+      \range{pages}{13}
+    \endentry
+    \entry{Yang2009}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=fff3a2b0b1638398cd5c6f5afa16a7f4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Rong-Cai},
+           giveni={R\bibinithyphendelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=bb8a6b5c700c8cdf21537c6019fd3e5e}{%
+           family={Crossa},
+           familyi={C\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{uniquename=0,hash=6831a224e2eee90a293eb57ccf55b10d}{%
+           family={Cornelius},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=638a06453e7f53bf98c232bf56353424}{%
+           family={Burgue�o},
+           familyi={B\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{de418c7f494b4312a7698f0b071d2906}
+      \strng{fullhash}{026769537968d7fd5670be3fbcb53e8c}
+      \strng{authornamehash}{de418c7f494b4312a7698f0b071d2906}
+      \strng{authorfullhash}{026769537968d7fd5670be3fbcb53e8c}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{title}{Biplot Analysis of Genotype $\times$ Environment Interaction: Proceed with Caution}
+      \field{volume}{49}
+      \field{year}{2009}
+      \field{pages}{1564\bibrangedash 1576}
+      \range{pages}{13}
+    \endentry
+    \entry{Zali2012}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=8a2fdd080c325147447076201eb74da9}{%
+           family={Zali},
+           familyi={Z\bibinitperiod},
+           given={Hassan},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=0,hash=8bb6676f61e9516d90087e4f692ec1a0}{%
+           family={Farshadfar},
+           familyi={F\bibinitperiod},
+           given={Ezatollah},
+           giveni={E\bibinitperiod}}}%
+        {{uniquename=0,hash=3b076fd62a5f4a3e0692265aa061c3fd}{%
+           family={Sabaghpour},
+           familyi={S\bibinitperiod},
+           given={Sayed\bibnamedelima Hosein},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=751112a062751692e45f6b3233e830f2}{%
+           family={Karimizadeh},
+           familyi={K\bibinitperiod},
+           given={Rahmatollah},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{893f0ebd1f2d328cb1645281cf423da0}
+      \strng{fullhash}{b7990bb47054f3b719db7792f7982235}
+      \strng{authornamehash}{893f0ebd1f2d328cb1645281cf423da0}
+      \strng{authorfullhash}{b7990bb47054f3b719db7792f7982235}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Biological Research}
+      \field{title}{Evaluation of genotype$\times$ environment interaction in chickpea using measures of stability from AMMI model}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{3126\bibrangedash 3136}
+      \range{pages}{11}
+    \endentry
+    \entry{Zobel1988}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=203cc22e081cdc9d6c757cc26e2c5616}{%
+           family={Zobel},
+           familyi={Z\bibinitperiod},
+           given={Richard\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=a27227023954a08ee2fffac015a5ac03}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Madison\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{uniquename=0,hash=21c14718ff0d9a6e1dfc2b67f51cfe6f}{%
+           family={Gauch},
+           familyi={G\bibinitperiod},
+           given={Hugh\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{025126f0ec3e32ac3e9750c7413c92f4}
+      \strng{fullhash}{dd94b499689616af9a6002cdc6787787}
+      \strng{authornamehash}{025126f0ec3e32ac3e9750c7413c92f4}
+      \strng{authorfullhash}{dd94b499689616af9a6002cdc6787787}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Agronomy Journal}
+      \field{title}{Statistical Analysis of a Yield Trial}
+      \field{volume}{80}
+      \field{year}{1988}
+      \field{pages}{388\bibrangedash 393}
+      \range{pages}{6}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
