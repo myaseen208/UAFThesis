@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.4)  25 MAR 2017 14:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2016.12.4)  25 MAR 2017 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -648,6 +648,12 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box30
 \enitdp@description=\count144
 )
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -1830,12 +1836,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip91
 )
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 98.
-Package hyperref Info: Option `plainpages' set `false' on input line 98.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 99.
+Package hyperref Info: Option `plainpages' set `false' on input line 99.
 
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 98.
+(hyperref)                setting the option has no effect on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
@@ -1854,19 +1860,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \renewcommand{\cftchappresnum}
-                                    {Chapter }
+l.117 \renewcommand{\cftchappresnum}
+                                    {Chapter}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 132.
+less on input line 133.
 
 ! Undefined control sequence.
 <argument> \cfttabnumwidth 
                            
-l.144 \setlength{\cfttabnumwidth}{3.5em}
+l.145 \setlength{\cfttabnumwidth}{3.5em}
                                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1877,7 +1883,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.145 \setlength
+l.146 \setlength
                 {\cftfignumwidth}{3.5em}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1886,7 +1892,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.145 \setlength
+l.146 \setlength
                 {\cftfignumwidth}{3.5em}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1898,7 +1904,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \cftfignumwidth 
                            
-l.145 \setlength{\cftfignumwidth}{3.5em}
+l.146 \setlength{\cftfignumwidth}{3.5em}
                                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1909,7 +1915,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \let 
-l.147 \newenvironment
+l.148 \newenvironment
                      {tightequation}{\begin{equation}}{\end{equation}}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1918,7 +1924,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \let 
-l.147 \newenvironment
+l.148 \newenvironment
                      {tightequation}{\begin{equation}}{\end{equation}}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1930,7 +1936,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \cftsecnumwidth 
                            
-l.150 \setlength{\cftsecnumwidth}{2.8em}
+l.151 \setlength{\cftsecnumwidth}{2.8em}
                                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1941,7 +1947,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.151 \setlength
+l.152 \setlength
                 {\cftsubsecnumwidth}{3.7em}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1950,7 +1956,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.151 \setlength
+l.152 \setlength
                 {\cftsubsecnumwidth}{3.7em}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1962,7 +1968,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \cftsubsecnumwidth 
                               
-l.151 \setlength{\cftsubsecnumwidth}{3.7em}
+l.152 \setlength{\cftsubsecnumwidth}{3.7em}
                                            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1973,7 +1979,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.152 \setlength
+l.153 \setlength
                 {\cftsubsubsecnumwidth}{4.6em}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1982,7 +1988,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.152 \setlength
+l.153 \setlength
                 {\cftsubsubsecnumwidth}{4.6em}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1994,7 +2000,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \cftsubsubsecnumwidth 
                                  
-l.152 \setlength{\cftsubsubsecnumwidth}{4.6em}
+l.153 \setlength{\cftsubsubsecnumwidth}{4.6em}
                                               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2005,7 +2011,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.153 \setlength
+l.154 \setlength
                 {\cftparanumwidth}{5.5em}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2014,7 +2020,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.153 \setlength
+l.154 \setlength
                 {\cftparanumwidth}{5.5em}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2026,7 +2032,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \cftparanumwidth 
                             
-l.153 \setlength{\cftparanumwidth}{5.5em}
+l.154 \setlength{\cftparanumwidth}{5.5em}
                                          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2037,7 +2043,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.154 \setlength
+l.155 \setlength
                 {\cftsubparanumwidth}{6.5em}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2046,7 +2052,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.154 \setlength
+l.155 \setlength
                 {\cftsubparanumwidth}{6.5em}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2058,7 +2064,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> \cftsubparanumwidth 
                                
-l.154 \setlength{\cftsubparanumwidth}{6.5em}
+l.155 \setlength{\cftsubparanumwidth}{6.5em}
                                             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2069,7 +2075,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \par 
-l.155 
+l.156 
       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2078,7 +2084,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \par 
-l.155 
+l.156 
       
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2324,37 +2330,36 @@ se use \mkbibnamesuffix instead. Using \mkbibnamesuffix.
 (./MPhilThesis.aux (./01ThesisFront/01Title.aux)
 (./01ThesisFront/02Declaration.aux) (./01ThesisFront/03Signature.aux)
 (./01ThesisFront/04Dedication.aux) (./01ThesisFront/05Acknowledgment.aux)
-(./02ThesisMain/Ch00Abstract/Ch00Abstract.aux)
-(./02ThesisMain/Ch01Intro/Ch01Intro.aux)
-(./02ThesisMain/Ch02LiteratureReview/Ch02LiteratureReview.aux)
-(./02ThesisMain/Ch03MM/Ch03MM.aux) (./02ThesisMain/Ch04RD/Ch04RD.aux)
-(./02ThesisMain/Ch05Summary/Ch05Summary.aux))
+(./02ThesisMain/Ch00Abstract.aux) (./02ThesisMain/Ch01Introduction.aux)
+(./02ThesisMain/Ch02LiteratureReview.aux)
+(./02ThesisMain/Ch03MaterialMethods.aux)
+(./02ThesisMain/Ch04ResultsDiscussion.aux) (./02ThesisMain/Ch05Summary.aux))
 \openout1 = `MPhilThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 19.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -2414,7 +2419,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring ON on input line 19.
+Package hyperref Info: Link coloring ON on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -2424,9 +2429,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count434
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./MPhilThesis.out) (./MPhilThesis.out)
 \@outlinefile=\write6
@@ -2436,7 +2441,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 ! Undefined control sequence.
 <argument> \advance \cftchapnumwidth 
                                      
-l.19 \begin{document}
+l.23 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2447,7 +2452,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \protected 
-l.19 \begin{document}
+l.23 \begin{document}
                      
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2456,7 +2461,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protected 
-l.19 \begin{document}
+l.23 \begin{document}
                      
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2473,8 +2478,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MPhilThesis.bbl' found.
 (./MPhilThesis.bbl)
-Package biblatex Info: Reference section=0 on input line 19.
-Package biblatex Info: Reference segment=0 on input line 19.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
 \openout2 = `01ThesisFront/01Title.aux'.
 
  (./01ThesisFront/01Title.tex
@@ -2505,14 +2510,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--4
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 \include{01ThesisFront/02Declaration}
-                                           [1
+l.32 	\include{01ThesisFront/02Declaration}
+                                            [1
 
 
 ]
 \openout2 = `01ThesisFront/03Signature.aux'.
 
- (./01ThesisFront/03Signature.tex
+
+(./01ThesisFront/03Signature.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--6
 
  []
@@ -2588,16 +2594,15 @@ Overfull \hbox (2.31175pt too wide) detected at line 15
 \openout9 = `MPhilThesis.lof'.
 
  [9]
-\openout2 = `02ThesisMain/Ch00Abstract/Ch00Abstract.aux'.
+\openout2 = `02ThesisMain/Ch00Abstract.aux'.
 
 
-(./02ThesisMain/Ch00Abstract/Ch00Abstract.tex) [10
+(./02ThesisMain/Ch00Abstract.tex) [10
 
 ]
-\openout2 = `02ThesisMain/Ch01Intro/Ch01Intro.aux'.
+\openout2 = `02ThesisMain/Ch01Introduction.aux'.
 
-
-(./02ThesisMain/Ch01Intro/Ch01Intro.tex
+ (./02ThesisMain/Ch01Introduction.tex
 Chapter 1.
 
 LaTeX Warning: Citation 'Uhlen1998' on page 1 undefined on input line 8.
@@ -2616,9 +2621,9 @@ an method-ol-ogy . Bayesian
  []
 
 [3]) [4]
-\openout2 = `02ThesisMain/Ch02LiteratureReview/Ch02LiteratureReview.aux'.
+\openout2 = `02ThesisMain/Ch02LiteratureReview.aux'.
 
- (./02ThesisMain/Ch02LiteratureReview/Ch02LiteratureReview.tex
+ (./02ThesisMain/Ch02LiteratureReview.tex
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -2803,9 +2808,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
  []
 
 ) [16] [17]
-\openout2 = `02ThesisMain/Ch03MM/Ch03MM.aux'.
+\openout2 = `02ThesisMain/Ch03MaterialMethods.aux'.
 
- (./02ThesisMain/Ch03MM/Ch03MM.tex
+ (./02ThesisMain/Ch03MaterialMethods.tex
 Chapter 3.
 [18
 
@@ -3078,18 +3083,19 @@ tifier (name{equation.3.3.30}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.80 \include{02ThesisMain/Ch03MM/Ch03MM}
-                                         pdfTeX warning (ext4): destination wit
-h the same identifier (name{equation.3.3.30}) has been already used, duplicate 
-ignored
+l.79 	\include{02ThesisMain/Ch03MaterialMethods}
+                                                pdfTeX warning (ext4): destinat
+ion with the same identifier (name{equation.3.3.30}) has been already used, dup
+licate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.80 \include{02ThesisMain/Ch03MM/Ch03MM}
-                                         ]
-\openout2 = `02ThesisMain/Ch04RD/Ch04RD.aux'.
+l.79 	\include{02ThesisMain/Ch03MaterialMethods}
+                                                ]
+\openout2 = `02ThesisMain/Ch04ResultsDiscussion.aux'.
 
- (./02ThesisMain/Ch04RD/Ch04RD.tex
+
+(./02ThesisMain/Ch04ResultsDiscussion.tex
 Chapter 4.
 [41
 
@@ -3099,41 +3105,61 @@ Overfull \hbox (35.18123pt too wide) in paragraph at lines 39--58
 [][]
  []
 
-[42] <02ThesisMain/Ch04RD/figures/k.pdf, id=810, 1027.84pt x 488.82625pt>
-File: 02ThesisMain/Ch04RD/figures/k.pdf Graphic file (type pdf)
+[42]
 
-<use 02ThesisMain/Ch04RD/figures/k.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/k.pdf used on input line 6
-8.
-(pdftex.def)             Requested size: 1011.79321pt x 867.25868pt.
- [43 <./02ThesisMain/Ch04RD/figures/k.pdf>] <02ThesisMain/Ch04RD/figures/myplot
-.pdf, id=819, 1027.84pt x 488.82625pt>
-File: 02ThesisMain/Ch04RD/figures/myplot.pdf Graphic file (type pdf)
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/k.pdf' not found on input line
+ 68.
 
-<use 02ThesisMain/Ch04RD/figures/myplot.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/myplot.pdf used on input l
-ine 77.
-(pdftex.def)             Requested size: 1084.14145pt x 1011.80428pt.
 
-Overfull \hbox (16.81706pt too wide) in paragraph at lines 77--78
- [][] 
- []
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/k.pdf' not found.
+
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...=12in]{02ThesisMain/Ch04RD/figures/k.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 68.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [43]
+
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/myplot' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ...14in]{02ThesisMain/Ch04RD/figures/myplot}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [44
 
- <./02ThesisMain/Ch04RD/figures/myplot.pdf>] [45
+] [45
 
 ]
-<02ThesisMain/Ch04RD/figures/gfscale.pdf, id=837, 505.89pt x 505.89pt>
-File: 02ThesisMain/Ch04RD/figures/gfscale.pdf Graphic file (type pdf)
 
-<use 02ThesisMain/Ch04RD/figures/gfscale.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/gfscale.pdf used on input 
-line 143.
-(pdftex.def)             Requested size: 1166.56299pt x 1166.58704pt.
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/gfscale' not found.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 ...mm]{02ThesisMain/Ch04RD/figures/gfscale}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (11.7927pt too wide) in paragraph at lines 150--151
@@ -3147,141 +3173,220 @@ Overfull \hbox (4.23216pt too wide) in paragraph at lines 150--151
 n two mega-environments.
  []
 
-[46] <02ThesisMain/Ch04RD/figures/efscale.pdf, id=843, 505.89pt x 505.89pt>
-File: 02ThesisMain/Ch04RD/figures/efscale.pdf Graphic file (type pdf)
+[46]
 
-<use 02ThesisMain/Ch04RD/figures/efscale.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/efscale.pdf used on input 
-line 155.
-(pdftex.def)             Requested size: 1308.82677pt x 1308.86053pt.
- [47 <./02ThesisMain/Ch04RD/figures/gfscale.pdf>]
-<02ThesisMain/Ch04RD/figures/www.pdf, id=855, 505.89pt x 505.89pt>
-File: 02ThesisMain/Ch04RD/figures/www.pdf Graphic file (type pdf)
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/efscale' not found.
 
-<use 02ThesisMain/Ch04RD/figures/www.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/www.pdf used on input line
- 167.
-(pdftex.def)             Requested size: 1308.82677pt x 1308.86053pt.
- [48 <./02ThesisMain/Ch04RD/figures/efscale.pdf>]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 ...mm]{02ThesisMain/Ch04RD/figures/efscale}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/www' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167 ...=460mm]{02ThesisMain/Ch04RD/figures/www}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (4.1111pt too wide) in paragraph at lines 175--176
 \T1/ptm/m/n/12 (AEA) points to higher av-er-age seed yield; while average-envir
 onment co-or-di-nate (AEC)
  []
 
-<02ThesisMain/Ch04RD/figures/AEC.pdf, id=867, 505.89pt x 505.89pt>
-File: 02ThesisMain/Ch04RD/figures/AEC.pdf Graphic file (type pdf)
 
-<use 02ThesisMain/Ch04RD/figures/AEC.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/AEC.pdf used on input line
- 180.
-(pdftex.def)             Requested size: 1308.82677pt x 1308.86053pt.
- [49 <./02ThesisMain/Ch04RD/figures/www.pdf>] <02ThesisMain/Ch04RD/figures/idea
-lg.pdf, id=881, 505.89pt x 505.89pt>
-File: 02ThesisMain/Ch04RD/figures/idealg.pdf Graphic file (type pdf)
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/AEC' not found.
 
-<use 02ThesisMain/Ch04RD/figures/idealg.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/idealg.pdf used on input l
-ine 191.
-(pdftex.def)             Requested size: 1394.18503pt x 1394.22pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.180 ...=460mm]{02ThesisMain/Ch04RD/figures/AEC}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Overfull \hbox (1.42686pt too wide) in paragraph at lines 191--192
- [][] 
- []
+[47]
 
-[50 <./02ThesisMain/Ch04RD/figures/AEC.pdf>]
-<02ThesisMain/Ch04RD/figures/idealE.pdf, id=894, 505.89pt x 505.89pt>
-File: 02ThesisMain/Ch04RD/figures/idealE.pdf Graphic file (type pdf)
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/idealg' not found.
 
-<use 02ThesisMain/Ch04RD/figures/idealE.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/idealE.pdf used on input l
-ine 203.
-(pdftex.def)             Requested size: 1394.18503pt x 1394.22pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 ...0mm]{02ThesisMain/Ch04RD/figures/idealg}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Overfull \hbox (1.42686pt too wide) in paragraph at lines 203--204
- [][] 
- []
 
-[51 <./02ThesisMain/Ch04RD/figures/idealg.pdf>]
-<02ThesisMain/Ch04RD/figures/genotype-cluster.pdf, id=905, 1027.84pt x 488.8262
-5pt>
-File: 02ThesisMain/Ch04RD/figures/genotype-cluster.pdf Graphic file (type pdf)
- <use 02ThesisMain/Ch04RD/figures/genotype-cluster.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/genotype-cluster.pdf used 
-on input line 213.
-(pdftex.def)             Requested size: 1445.52194pt x 1445.6201pt.
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/idealE' not found.
 
-Overfull \hbox (74.63927pt too wide) in paragraph at lines 213--214
- [][] 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ...0mm]{02ThesisMain/Ch04RD/figures/idealE}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[52 <./02ThesisMain/Ch04RD/figures/idealE.pdf>]
-<02ThesisMain/Ch04RD/figures/environment-cluster.pdf, id=917, 1027.84pt x 488.8
-2625pt>
-File: 02ThesisMain/Ch04RD/figures/environment-cluster.pdf Graphic file (type pd
-f)
- <use 02ThesisMain/Ch04RD/figures/environment-cluster.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/environment-cluster.pdf us
-ed on input line 223.
-(pdftex.def)             Requested size: 1445.52194pt x 1445.6201pt.
 
-Overfull \hbox (74.63927pt too wide) in paragraph at lines 223--224
- [][] 
- []
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/genotype-cluster' not found.
 
-[53 <./02ThesisMain/Ch04RD/figures/genotype-cluster.pdf>] [54 <./02ThesisMain/C
-h04RD/figures/environment-cluster.pdf>]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...sisMain/Ch04RD/figures/genotype-cluster}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[48]
+
+! LaTeX Error: File `02ThesisMain/Ch04RD/figures/environment-cluster' not found
+.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 ...Main/Ch04RD/figures/environment-cluster}}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (5.68614pt too wide) in paragraph at lines 232--233
 []\T1/ptm/m/n/12 After ob-tain-ing large MCMC sam-ple us-ing joint pos-te-rior 
 dis-tri-bu-tion, parametrs
  []
 
-<02ThesisMain/Ch04RD/figures/tracemu.pdf, id=938, 426.59375pt x 284.06125pt>
-File: 02ThesisMain/Ch04RD/figures/tracemu.pdf Graphic file (type pdf)
+[49]
 
-<use 02ThesisMain/Ch04RD/figures/tracemu.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/tracemu.pdf used on input 
-line 237.
-(pdftex.def)             Requested size: 289.07999pt x 192.50458pt.
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/tracemu.pdf' not found on inpu
+t line 237.
 
-<02ThesisMain/Ch04RD/figures/tracelambda1.pdf, id=939, 426.59375pt x 284.06125p
-t>
-File: 02ThesisMain/Ch04RD/figures/tracelambda1.pdf Graphic file (type pdf)
- <use 02ThesisMain/Ch04RD/figures/tracelambda1.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/tracelambda1.pdf used on i
-nput line 238.
-(pdftex.def)             Requested size: 289.07999pt x 192.50458pt.
 
-<02ThesisMain/Ch04RD/figures/tracelambda2.pdf, id=940, 426.59375pt x 284.06125p
-t>
-File: 02ThesisMain/Ch04RD/figures/tracelambda2.pdf Graphic file (type pdf)
- <use 02ThesisMain/Ch04RD/figures/tracelambda2.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/tracelambda2.pdf used on i
-nput line 239.
-(pdftex.def)             Requested size: 289.07999pt x 192.50458pt.
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/tracemu.pdf' not 
+found.
 
-<02ThesisMain/Ch04RD/figures/screeplot.pdf, id=941, 115.632pt x 115.632pt>
-File: 02ThesisMain/Ch04RD/figures/screeplot.pdf Graphic file (type pdf)
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...02ThesisMain/Ch04RD/figures/tracemu.pdf}}
+                                                   \\
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use 02ThesisMain/Ch04RD/figures/screeplot.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/screeplot.pdf used on inpu
-t line 249.
-(pdftex.def)             Requested size: 289.07999pt x 289.09515pt.
 
-<02ThesisMain/Ch04RD/figures/cumvar.pdf, id=942, 115.632pt x 115.632pt>
-File: 02ThesisMain/Ch04RD/figures/cumvar.pdf Graphic file (type pdf)
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/tracelambda1.pdf' not found on
+ input line 238.
 
-<use 02ThesisMain/Ch04RD/figures/cumvar.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/cumvar.pdf used on input l
-ine 250.
-(pdftex.def)             Requested size: 289.07999pt x 289.09515pt.
- [55] [56 <./02ThesisMain/Ch04RD/figures/tracemu.pdf> <./02ThesisMain/Ch04RD/fi
-gures/tracelambda1.pdf> <./02ThesisMain/Ch04RD/figures/tracelambda2.pdf>] [57 <
-./02ThesisMain/Ch04RD/figures/screeplot.pdf> <./02ThesisMain/Ch04RD/figures/cum
-var.pdf>]
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/tracelambda1.pdf'
+ not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 ...sisMain/Ch04RD/figures/tracelambda1.pdf}}
+                                                   \\
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/tracelambda2.pdf' not found on
+ input line 239.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/tracelambda2.pdf'
+ not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 ...sisMain/Ch04RD/figures/tracelambda2.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 275.97116pt on input line 243.
+
+
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/screeplot.pdf' not found on in
+put line 249.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/screeplot.pdf' no
+t found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 ...ThesisMain/Ch04RD/figures/screeplot.pdf}}
+                                                   \\
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/cumvar.pdf' not found on input
+ line 250.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/cumvar.pdf' not f
+ound.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 ...{02ThesisMain/Ch04RD/figures/cumvar.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (73.30692pt too wide) in paragraph at lines 272--313
  [][] 
  []
 
+[50] [51] [52]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3298,97 +3403,158 @@ Overfull \hbox (4.20079pt too wide) in paragraph at lines 357--357
 |[]\T1/ptm/b/sc/14.4 Credible Re-gions of the First Two Bi-lin-ear Terms
  []
 
-[58]
+
 Overfull \hbox (69.98795pt too wide) in paragraph at lines 367--392
  [][] 
  []
 
-[59]
+[53]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60] [61]
-<02ThesisMain/Ch04RD/figures/c-biplot-80-90.pdf, id=1000, 115.632pt x 115.632pt
->
-File: 02ThesisMain/Ch04RD/figures/c-biplot-80-90.pdf Graphic file (type pdf)
- <use 02ThesisMain/Ch04RD/figures/c-biplot-80-90.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/c-biplot-80-90.pdf used on
- input line 398.
-(pdftex.def)             Requested size: 1536.4488pt x 1536.5365pt.
+[54]
+
+LaTeX Warning: Text page 55 contains only floats.
+
+
+Overfull \vbox (2.67284pt too high) has occurred while \output is active []
+
+
+[55]
+
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/c-biplot-80-90.pdf' not found 
+on input line 398.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/c-biplot-80-90.pd
+f' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 ...sMain/Ch04RD/figures/c-biplot-80-90.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (44.10643pt too wide) in paragraph at lines 398--399
  [][] 
  []
 
 
-<02ThesisMain/Ch04RD/figures/r-biplot-80-90.pdf, id=1002, 115.632pt x 115.632pt
->
-File: 02ThesisMain/Ch04RD/figures/r-biplot-80-90.pdf Graphic file (type pdf)
- <use 02ThesisMain/Ch04RD/figures/r-biplot-80-90.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/r-biplot-80-90.pdf used on
- input line 408.
-(pdftex.def)             Requested size: 1564.90157pt x 1564.99097pt.
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/r-biplot-80-90.pdf' not found 
+on input line 408.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/r-biplot-80-90.pd
+f' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.408 ...sMain/Ch04RD/figures/r-biplot-80-90.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (52.64235pt too wide) in paragraph at lines 408--409
 [][] 
  []
 
-[62
+[56
 
- <./02ThesisMain/Ch04RD/figures/c-biplot-80-90.pdf>]
-<02ThesisMain/Ch04RD/figures/column-cluster.pdf, id=1013, 115.632pt x 115.632pt
->
-File: 02ThesisMain/Ch04RD/figures/column-cluster.pdf Graphic file (type pdf)
- <use 02ThesisMain/Ch04RD/figures/column-cluster.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/column-cluster.pdf used on
- input line 418.
-(pdftex.def)             Requested size: 1564.90157pt x 1564.99097pt.
+]
+
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/column-cluster.pdf' not found 
+on input line 418.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/column-cluster.pd
+f' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 ...sMain/Ch04RD/figures/column-cluster.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (52.64235pt too wide) in paragraph at lines 418--419
  [][] 
  []
 
-[63 <./02ThesisMain/Ch04RD/figures/r-biplot-80-90.pdf>]
-<02ThesisMain/Ch04RD/figures/row-cluster.pdf, id=1023, 115.632pt x 115.632pt>
-File: 02ThesisMain/Ch04RD/figures/row-cluster.pdf Graphic file (type pdf)
+[57]
 
-<use 02ThesisMain/Ch04RD/figures/row-cluster.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/row-cluster.pdf used on in
-put line 428.
-(pdftex.def)             Requested size: 1564.90157pt x 1564.99097pt.
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/row-cluster.pdf' not found on 
+input line 428.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/row-cluster.pdf' 
+not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 ...esisMain/Ch04RD/figures/row-cluster.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (52.64235pt too wide) in paragraph at lines 428--429
  [][] 
  []
 
-[64 <./02ThesisMain/Ch04RD/figures/column-cluster.pdf>]
-<02ThesisMain/Ch04RD/figures/comparison.pdf, id=1032, 505.89pt x 505.89pt>
-File: 02ThesisMain/Ch04RD/figures/comparison.pdf Graphic file (type pdf)
+[58]
 
-<use 02ThesisMain/Ch04RD/figures/comparison.pdf>
-Package pdftex.def Info: 02ThesisMain/Ch04RD/figures/comparison.pdf used on inp
-ut line 440.
-(pdftex.def)             Requested size: 1593.35432pt x 1593.39207pt.
+LaTeX Warning: File `02ThesisMain/Ch04RD/figures/comparison.pdf' not found on i
+nput line 440.
+
+
+! Package pdftex.def Error: File `02ThesisMain/Ch04RD/figures/comparison.pdf' n
+ot found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.440 ...hesisMain/Ch04RD/figures/comparison.pdf}}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (93.05215pt too wide) in paragraph at lines 440--441
 [][] 
  []
 
-[65 <./02ThesisMain/Ch04RD/figures/row-cluster.pdf>]) [66 <./02ThesisMain/Ch04R
-D/figures/comparison.pdf>]
-\openout2 = `02ThesisMain/Ch05Summary/Ch05Summary.aux'.
+[59]) [60]
+\openout2 = `02ThesisMain/Ch05Summary.aux'.
 
- (./02ThesisMain/Ch05Summary/Ch05Summary.tex
+ (./02ThesisMain/Ch05Summary.tex
 Chapter 5.
-) [67
+) [61
 
 
-] [68]
+] [62]
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3396,36 +3562,21 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Overfull \hbox (2.0791pt too wide) in paragraph at lines 98--98
+Overfull \hbox (2.0791pt too wide) in paragraph at lines 96--96
 \T1/ptm/m/n/12 WHEAT CUL-TI-VARS IN CHILE US-ING RE-GRES-SION ANAL-Y-SIS, AMMI,
 
  []
 
-[69
+[63
 
-] [70]
-
-! Package inputenc Error: Unicode char � (U+FFFD)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 \endgroup
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[71]
+] [64]
 
 ! Package inputenc Error: Unicode char � (U+FFFD)
 (inputenc)                not set up for use with LaTeX.
@@ -3434,24 +3585,39 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[65]
+
+! Package inputenc Error: Unicode char � (U+FFFD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 	\endgroup
+               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (9.12126pt too wide) in paragraph at lines 98--98
+Overfull \hbox (9.12126pt too wide) in paragraph at lines 96--96
 \T1/ptm/m/n/12 TYPES WITH SIG-NIF-I-CANT GENO-TYPE-EN-VI-RON-MENT IN-TER-AC-TIO
 N.
  []
 
-[72]
+[66]
 ! Undefined control sequence.
 <recently read> \tim 
                      
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3466,14 +3632,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (3.62125pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.62125pt too wide) in paragraph at lines 96--96
 [][][]\T1/ptm/m/n/12 Tolessa[], []T. T.[], []G.[] []Ke-neni[], []T.[] []Se-fera
 [], []M.[] []Jarso[] []and [][]Y.[] []Bekele[]. 2013. GenoGeno $$nvironment
  []
@@ -3486,8 +3652,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -3495,8 +3661,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -3511,31 +3677,30 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \endgroup
-              
+l.96 	\endgroup
+               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1.11555pt too wide) in paragraph at lines 98--98
+Overfull \hbox (1.11555pt too wide) in paragraph at lines 96--96
 \T1/ptm/m/n/12 type $\OMS/ztmcm/m/n/12 ^^B$ \T1/ptm/m/n/12 En-vi-ron-ment In-te
 r-ac-tion: Pro-ceed with Cau-tion. Crop Sci-ence 49: 1564^^U
  []
 
-[73] [74]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+[67] [68]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./MPhilThesis.aux (./01ThesisFront/01Title.aux)
 (./01ThesisFront/02Declaration.aux) (./01ThesisFront/03Signature.aux)
 (./01ThesisFront/04Dedication.aux) (./01ThesisFront/05Acknowledgment.aux)
-(./02ThesisMain/Ch00Abstract/Ch00Abstract.aux)
-(./02ThesisMain/Ch01Intro/Ch01Intro.aux)
-(./02ThesisMain/Ch02LiteratureReview/Ch02LiteratureReview.aux)
-(./02ThesisMain/Ch03MM/Ch03MM.aux) (./02ThesisMain/Ch04RD/Ch04RD.aux)
-(./02ThesisMain/Ch05Summary/Ch05Summary.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+(./02ThesisMain/Ch00Abstract.aux) (./02ThesisMain/Ch01Introduction.aux)
+(./02ThesisMain/Ch02LiteratureReview.aux)
+(./02ThesisMain/Ch03MaterialMethods.aux)
+(./02ThesisMain/Ch04ResultsDiscussion.aux) (./02ThesisMain/Ch05Summary.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `MPhilThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 78CF4F76951EFAD3B9302D1F2F7EA3A7;10093.
 
@@ -3552,11 +3717,11 @@ Package logreq Info: Writing requests to 'MPhilThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41619 strings out of 493014
- 737219 string characters out of 6135690
- 1198574 words of memory out of 5000000
- 44107 multiletter control sequences out of 15000+600000
- 116372 words of font info for 124 fonts, out of 8000000 for 9000
+ 41616 strings out of 493014
+ 734421 string characters out of 6135690
+ 1201346 words of memory out of 5000000
+ 44090 multiletter control sequences out of 15000+600000
+ 116993 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,98p,10388b,1907s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -3568,16 +3733,16 @@ f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
 /public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usy
-r.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on MPhilThesis.pdf (85 pages, 5694224 bytes).
+ts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/uc
+rr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MPhilThesis.pdf (79 pages, 426929 bytes).
 PDF statistics:
- 1203 PDF objects out of 1440 (max. 8388607)
- 1037 compressed objects within 11 object streams
- 274 named destinations out of 1000 (max. 500000)
- 534 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 957 compressed objects within 10 object streams
+ 268 named destinations out of 1000 (max. 500000)
+ 434 words of extra memory for PDF output out of 10000 (max. 10000000)
 

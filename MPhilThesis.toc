@@ -90,19 +90,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.3}GGE-biplot}{46}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Cluster Analysis}{52}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.4}Cluster Analysis}{48}{subsection.4.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Bayesian analysis}{54}{section.4.2}
+\contentsline {section}{\numberline {4.2}Bayesian analysis}{49}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Uncertainty and confidence regions of first two bilinear terms in Bayesian AMMI}{55}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Uncertainty and confidence regions of first two bilinear terms in Bayesian AMMI}{50}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Credible intervals for genotypes}{58}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Credible intervals for genotypes}{53}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Credible intervals for environments}{58}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Credible intervals for environments}{53}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Credible Regions of the First Two Bilinear Terms of the Linear Bilinear Model}{58}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}Credible Regions of the First Two Bilinear Terms of the Linear Bilinear Model}{53}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Summary}{67}{chapter.5}
+\contentsline {chapter}{\numberline {5}Summary}{61}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\textsc {References}}{69}{section*.43}
+\contentsline {chapter}{\textsc {References}}{63}{section*.43}
 \contentsfinish 

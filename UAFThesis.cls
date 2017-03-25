@@ -29,6 +29,7 @@
 , colortbl %
 , datetime %
 , enumitem %
+, environ  %
 , epsfig %
 , epstopdf %
 , etoolbox % 
@@ -56,7 +57,7 @@
 , titlesec %
 , titletoc %
 , titling %
-%, tocloft %
+% , tocloft %
 %, url     %
 , xcolor %
 , xpatch % 
@@ -113,7 +114,7 @@
  
 
 
-\renewcommand{\cftchappresnum}{Chapter }
+\renewcommand{\cftchappresnum}{Chapter}
 \AtBeginDocument{\addtolength\cftchapnumwidth{\widthof{\bfseries Chapter}}}
 
 \setcounter{secnumdepth}{3}

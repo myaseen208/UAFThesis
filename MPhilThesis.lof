@@ -14,45 +14,45 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Biplot of IPCA axis-1 versus mean yield}}{44}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces GGE-biplot based on genotype-focused scaling for genotypes}}{47}{figure.caption.25}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces GGE-biplot based on genotype-focused scaling for genotypes}}{46}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces GGE-biplot based on environment-focused scaling for environments}}{48}{figure.caption.26}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces GGE-biplot based on environment-focused scaling for environments}}{47}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Polygon views of GGE-biplot based on symmetrical scaling}}{49}{figure.caption.27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Polygon views of GGE-biplot based on symmetrical scaling}}{47}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Average environment coordination (AEC) views of the GGE-biplot}}{50}{figure.caption.28}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Average environment coordination (AEC) views of the GGE-biplot}}{48}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparison of the genotypes with ideal genotype}}{51}{figure.caption.29}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparison of the genotypes with ideal genotype}}{48}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces comparison the environments with ideal environment}}{52}{figure.caption.30}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces comparison the environments with ideal environment}}{48}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Cluster analysis of genotypes}}{53}{figure.caption.31}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Cluster analysis of genotypes}}{49}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Cluster analysis of environments}}{54}{figure.caption.32}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Cluster analysis of environments}}{49}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Trace for MCMC samples}}{56}{figure.caption.33}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Trace for MCMC samples}}{51}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {fig 1}}}{56}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {fig 1}}}{51}{subfigure.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {fig 2}}}{56}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {fig 2}}}{51}{subfigure.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {fig 3}}}{56}{subfigure.11.3}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {fig 3}}}{51}{subfigure.11.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Posterior densities and regions for singular values and cumulative proportion}}{57}{figure.caption.34}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Posterior densities and regions for singular values and cumulative proportion}}{52}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {fig 1}}}{57}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {fig 1}}}{52}{subfigure.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {fig 2}}}{57}{subfigure.12.2}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {fig 2}}}{52}{subfigure.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Bayesian biplot for environments}}{62}{figure.caption.38}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Bayesian biplot for environments}}{56}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Bayesian biplot for genotypes}}{63}{figure.caption.39}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Bayesian biplot for genotypes}}{57}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Bayesian dendrogram for environments}}{64}{figure.caption.40}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Bayesian dendrogram for environments}}{58}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Bayesian dendrogram for genotpyes}}{65}{figure.caption.41}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Bayesian dendrogram for genotpyes}}{59}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Comparison between OLS and Bayes method}}{66}{figure.caption.42}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Comparison between OLS and Bayes method}}{60}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 
