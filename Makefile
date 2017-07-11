@@ -14,5 +14,6 @@ clean:
 	-rm -f *.nav 
 	-rm -f *.out 
 	-rm -f *.run.xml 
-	-rm -f *.snm 
+	-rm -f *.snm
+	-rm -f *.synctex.gz
 	-rm -f *.toc 

@@ -23,10 +23,10 @@ Introduction
 
 
 
-Python Code for GUI Calculator
+UAFThesis
 ******************************
 
-.. literalinclude:: gui.py
+.. literalinclude:: MPhilThesis.tex
 
 
 

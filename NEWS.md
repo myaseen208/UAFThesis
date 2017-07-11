@@ -1,4 +1,4 @@
-# Changes in UAFSynopsis Version 0.1.0
+# Changes in UAFThesis Version 0.1.0
 ## New Features 
 
-* First version of UAFSynopsis: 
+* First version of UAFThesis: 

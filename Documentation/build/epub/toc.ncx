@@ -7,12 +7,12 @@
     <meta name="dtb:maxPageNumber" content="0"/>
   </head>
   <docTitle>
-    <text>UAFSynopsis</text>
+    <text>UAFThesis</text>
   </docTitle>
   <navMap>
     <navPoint id="navPoint2" playOrder="1">
       <navLabel>
-        <text>UAFSynopsis&#39;s documentation!</text>
+        <text>UAFThesis&#39;s documentation!</text>
       </navLabel>
       <content src="index.xhtml" />
     </navPoint>

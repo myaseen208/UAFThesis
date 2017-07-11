@@ -1,7 +1,7 @@
 % Don't make any changes in this document.
 \LoadClass[a4paper, 12pt, oneside, english]{book}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{UAFThesis}[2017/03/25 UAFThesis Template]
+\ProvidesClass{UAFThesis}[2017/07/10 UAFThesis Template]
 
 \RequirePackage[intoc]{nomencl}
 \RequirePackage[T1]{fontenc}
@@ -98,9 +98,9 @@
 			, linkcolor     = blue      %
 			} 
  
-\usepackage[
+\RequirePackage[
   format        = hang      %
-, labelfont     = bf    %
+, labelfont     = {bf,it}    %
 , textfont      = it    %
 , tableposition = top   %
 , justification = justified %
@@ -133,39 +133,73 @@
 \fancyfoot[RE,RO]{\thepage}
 \linespread{1.5}
 
-\titlespacing*{\chapter}{0pt}{-50pt}{20pt}
-\titleformat{\chapter}[hang]{\normalfont\scshape\LARGE\bfseries}{\chaptertitlename\ \thechapter:}{20pt}{\LARGE}
+
+
+\titlespacing*{\chapter}{0pt}{-0pt}{20pt}
+\titleformat{\chapter}[hang]{\normalfont\itshape\LARGE\bfseries}{\chaptertitlename\ \thechapter:}{20pt}{\LARGE}
 
 \titleformat{\section}
-  {\normalfont\scshape\Large\bfseries}{\thesection}{15pt}{\Large}
+  {\normalfont\itshape\Large\bfseries}{\thesection}{15pt}{\Large}
 
 \titleformat{\subsection}
-  {\normalfont\scshape\large\bfseries}{\thesubsection}{15pt}{\large}
+  {\normalfont\itshape\large\bfseries}{\thesubsection}{15pt}{\large}
 
-\setlength{\cfttabnumwidth}{3.5em}
-\setlength{\cftfignumwidth}{3.5em} 
+\titleformat{\subsubsection}
+{\normalfont\itshape\normalsize\bfseries}{\thesubsubsection}{15pt}{\normalsize}
+
+
+\RequirePackage{titlesec}
+\RequirePackage[titles,subfigure]{tocloft}
+\RequirePackage{subfigure} 
+
+\renewcommand\cftchapfont{\normalfont\itshape\normalsize\bfseries}
+\renewcommand\cftsecfont{\normalfont\itshape\small}
+\renewcommand\cftsubsecfont{\normalfont\itshape\footnotesize}
+\renewcommand\cftsubsubsecfont{\normalfont\itshape\footnotesize}
+
+\renewcommand\cfttabfont{\normalfont\itshape\small}
+
+
+% Adjusting spaces for the TOC
+\RequirePackage[titles]{tocloft}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}} % for subsections
+\setlength{\cftchapnumwidth}{3em}
+\renewcommand{\cftchappresnum}{Chapter~~}
+\AtBeginDocument{\addtolength\cftchapnumwidth{\widthof{\bfseries Chapter~~}}}
+\setlength{\cftsecnumwidth}{2em}
+
+
 % Prevent double spaced equations
 \newenvironment{tightequation}{\begin{equation}}{\end{equation}}
 
-% Extra junk to pretty up the table of contents
-\setlength{\cftsecnumwidth}{2.8em}
-\setlength{\cftsubsecnumwidth}{3.7em}
-\setlength{\cftsubsubsecnumwidth}{4.6em}
-\setlength{\cftparanumwidth}{5.5em}
-\setlength{\cftsubparanumwidth}{6.5em}
 
 
 
-\titlecontents{chapter}% <section-type>
-  [0pt]% <left>
-  {\addvspace{1em}}% <above-code>
-  {\scshape\bfseries\chaptername\ \thecontentslabel\quad}% <numbered-entry-format>
-  {}% <numberless-entry-format>
-  {\scshape\bfseries\hfill\contentspage}% <filler-page-format>
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {\hfill Table of Contents \hfill}%
+}
+
+
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\listfigurename}%
+    {\hfill List oF Figures \hfill}%
+}
+
+
+
+\addto\captionsenglish{% Replace "english" with the language you use
+  \renewcommand{\listtablename}%
+    {\hfill List of Tables \hfill}%
+}
+
 	
 \renewcommand{\contentsname}{Table of Contents}
 \renewcommand{\listfigurename}{List oF Figures}
-\renewcommand{\listtablename}{List of tables}
+\renewcommand{\listtablename}{List of Tables}
 \renewcommand{\bibname}{\texorpdfstring{{References\vspace{0mm}}}{References}}
 
 
